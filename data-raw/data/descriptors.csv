@@ -1,0 +1,1039 @@
+number,identifier,category,rationale
+1,HCPCS:EXP,Expired CPT,"43760 expired effective 1/1/19 - to report, please see (43762 - 43763)"
+2,BCBS:AL,NDC Numbers,Alabama BCBS requires NDC numbers.
+3,BCBS:AL,NDC Numbers,Alabama BCBS requires NDC numbers on vaccine codes.
+4,BCBS:AL,NDC Numbers,Add accident date info if the injury dx is primary.
+5,BCBS:AL,Wellness visits - BMI & BP reporting,"When filing IPPE (G0402) and AWV (G0438 or G0439), Blue Advantage requires the BMI diagnosis code and the blood pressure reporting code . See BP codes , 3075F, 3077F, 3078F, 3079F, 3080F and/or Z68 BMI codes."
+6,MCD:AL,Independent RHC claims,"RHC claims are billed on 1500 for place of service codes 11, 21, 22, 23, 31, 32."
+7,MCD:AL,BMI requirement,"Beginning October 1, 2019, Primary Care Physicians (PCPs), nurse practitioners, physician assistants, PCP groups with a PCP Enrollment Agreement on file with Medicaid, Federally Qualified Health Centers (FQHCs), Rural Health Centers (RHCs), Public Health Departments, and Teaching Facilities that bill procedure codes 99202-99205, 99211-99215, and 99242-99245 must include a BMI diagnosis on the claim or the claim will be denied."
+8,MCD:AL,Pediatric BMI,"Pediatric BMI diagnosis must be present for patient age 3 up to age 20 - See Z68.51, Z68.52, Z68.53, or Z68.54."
+9,MCD:AL,Adult BMI,Adult BMI diagnosis must be present for patient age 20 and older.
+10,MCD:AL,NDC requirement,"The NDC number will be mandatory on all physician-administered drugs in the following ranges: J0000 – J9999, S0000 – S9999, and Q0000 – Q9999."
+11,MCD:AL,RHC Labs,Labs are billable and reimbursable outside of the encounter rate utilizing the non-IRHC National Provider Identifier (NPI) and on a separate claim.
+12,MCD:AL,RHC POS,Claims will reject for POS 72 - update to POS 11 for RHC claims.
+13,MCD:AL,Vaccines,VFC Vaccines are reimbursable outside of the encounter rate utilizing the IRHC National Provider Identifier (NPI) and on a separate claim.
+14,MCD:AR,CLIA Waived Test,CLIA waived tests are present - review and add modifier QW to CLIA waived tests.
+15,MCD:AR,NDC Requirement,Arkansas Medicaid requires NDC information on drug codes.
+16,MCD:AR,Injection Administration Code,Injection administration code is T1502 for Arkansas Medicaid.
+17,MCD:AR,AK Medicaid primary RHC,Arkansas Medicaid is billed on a UB-04.
+18,BCBS:KS,BCBS Kansas referring provider,BCBS Kansas may require the ordering/referring provider information. Add referring provider.
+19,BCBS:KS,"99408, 99409 - Medical Necessity","Review encounter for ICD-10 code required for 99408, 99409"
+20,BCBS:KS,"99401, 99402, 99403, 99404, 99411, 99412 - Medical Necessity","Review encounter for ICD-10 code required for 99401, 99402, 99403, 99404, 99411, 99412"
+21,BCBS:KS,"99406, 99407, 99411, 99412 - Medical Necessity","Review encounter for ICD-10 code required for 99406, 99407, 99411, 99412"
+22,BCBS:KS,Unspecified laterality,BCBS Kansas will reject claim for unspecified laterality. Add a more specific ICD-10 code.
+23,BCBS:KS,H01.119,"BCBS requires a more specified code. Please see H01.111, H01.112, H01.114, or H01.115."
+24,BCBS:KS,Accident date,Add accident date if the injury diagnosis is the primary diagnosis code.
+25,BCBS:TN,NDC required,BlueCare Tenncare requires NDC numbers on drug codes.
+26,BCBS:TX,Modifier SA,Modifier SA is required when a supervising physician bills on behalf of a mid-level provider for non-surgical services.
+27,MCD:CA,SL Modifier,Vaccine for Vaccines For Children (VFC) requires SL modifier.
+28,MCD:CA,Medi-cal Qualifying Visit,Add T1015 as the reimbursable line. All other charges should be zeroed out and reported on claim as informational only.
+29,MCD:CA,Medi-cal Primary,SE modifier is used to Medi-Cal wrap around payments only. Remove SE if Medi-Cal is the primary insurance.
+30,MCD:CA,Medi-Cal Primary RHC,Medi-Cal is billed on UB-04.
+31,MCD:CA,Medi-Cal Lab DX codes,"Review claim. Providers may not submit the following non-specific diagnosis codes when ordering billing for laboratory procedures: Z00.00, Z00.5, Z00.6, Z00.8, Z01.00, Z01.10, Z01.89, Z02.1 and Z02.3."
+32,MCD:CA,TC labs,Modifier TC should be used on appropriate lab codes when pathology services are billed with an E&M procedure performed by the same provider on the same date of service.
+33,MCD:CA,Labs not eligible for split billing,Labs may not be eligible for split billing. Review list of CPT codes that are not eligible for TC modifier.
+34,MCD:CA,NA,"The primary surgeon or podiatrist is required to use modifier AG on the only or highest valued surgical procedure code (HCPCS Z1200 thru Z1212 and CPT® series 10000 thru 69999). Use modifier 51 for second, third or subsequent differing procedures. Use modifier 99 for third or subsequent identical procedures."
+36,MCD:CA,CLIA Waived Test,CLIA waived tests are present - review and add modifier QW to CLIA waived tests.
+37,MCD:CA,90461,VFC vaccines are billed with administration code 90460 - No components added.
+38,MCD:CA,Contraceptive,"Use FP modifier for family planning services. This includes office visit charges, procedures and labs."
+39,MCD:CA,NDC requirement,Medi-Cal requires NDC on drug codes.
+40,MCD:CA,Vaccine NDC,Medi-Cal requires NDC on vaccine codes.
+42,FERT,"89280, 89281 Coding Alert","89280, 89281 should not be reported for the same DOS"
+43,FERT,SIS with ultrasound,"76831 includes all ultrasound imaging performed during the hysterosonography procedure. It is not appropriate to separately report transvaginal or pelvic ultrasound (76830, 76856, 76857) performed as an inherent part of the hysterosonogram. If a diagnostic ultrasound is performed as a separate procedure prior to hysterosonography, report the applicable code with modifier -59 appended."
+44,FERT,89331 Female,Code 89331 cannot apply to female patients.
+45,FERT,89320 Female,Code 89320 cannot apply to female patients.
+49,FQHC,G0466 Qualifying Code,An FQHC qualifying visit is present on the encounter. Payment code G0466 (FQHC new patient) may apply.
+50,FQHC,Qualifying Visits,"G0466, G0467, G0468 should be billed on a UB-04 with revenue code 0521."
+51,FQHC,Mental Health Qualifying Visits,"G0469, G0470 should be billed to Medicare Part A on a UB-04 with revenue code 0900."
+52,FQHC,Mental Health Qualifying Visits,"G0469, G0470 should be billed on a UB-04 with revenue code 0900."
+53,FQHC,G0466 Qualifying Visit,An FQHC qualifying visit for G0466 is not present. Review coding.
+54,FQHC,G0467 qualifying visit,An FQHC qualifying visit for G0467 is not present. Review coding.
+55,FQHC,G0468 qualifying visit,An FQHC qualifying visit for G0468 is not present. Review coding.
+56,FQHC,"G0469, G0470 Qualifying Visit","An FQHC qualifying visit for G0469, G0470 is not present. Review coding."
+57,FQHC,Independent FQHC Labs,Labs are billed on CMS-1500 claim form to Medicare Part B.
+58,FQHC,93000 - Medicare,93000 is not billed in an FQHC - Split claim for the technical (93005) and professional component (93010).
+59,FQHC,93005 - Medicare,93005 - The technical component of the ECG is billed on CMS-1500 claim form to Medicare Part B.
+60,FQHC,G0466 Qualifying Code,An FQHC qualifying visit is present on the encounter. Payment code G0466 (FQHC new patient) may apply.
+61,FQHC,93010 - Medicare,93010 - The professional component of the ECG is billed with a qualifying visit on UB-04 claim form to Medicare Part A with revenue code 0730.
+62,FQHC,Wellcare POS,Place of Service codes 11 (Office) or 99 (Other Place of service) are not accepted when rendering service in a FQHC.
+63,FQHC,G0467 Qualifying Visit,An FQHC qualifying visit is present on the encounter. Payment code G0467 (FQHC established patient) may apply.
+64,FQHC,G0467 Qualifying Visit,An FQHC qualifying visit is present on the encounter. Payment code G0467 (FQHC established patient) may apply.
+65,FQHC,G0468 Qualifying Visit,An FQHC qualifying visit is present on the encounter. Payment code G0468 (FQHC IPPE or AWV) may apply.
+66,FQHC,G0468 Qualifying Visit,An FQHC qualifying visit is present on the encounter. Payment code G0468 (FQHC IPPE or AWV) may apply.
+67,FQHC,"G0469, G0470 Qualifying Visit","An FQHC qualifying visit is present on the encounter. Payment code G0469 (FQHC mental health, new patient) or G0470 (FQHC mental health, established patient) may apply."
+68,FQHC,"G0469, G0470 Qualifying Visit","An FQHC qualifying visit is present on the encounter. Payment code G0469 (FQHC mental health, new patient) or G0470 (FQHC mental health, established patient)may apply."
+69,FQHC,Qualifying Visits,"G0466, G0467, G0468 should be billed to Medicare Part A on a UB-04 with revenue code 0521."
+70,MCD:GA,Medicaid Authorization,Medicaid may require authorization after patient has exceeded 10 visits
+71,MCD:GA,Medicaid Authorization,Modifier 25 should be added when a vaccine is administered during the preventive visit.
+72,MCD:GA,"99211, 99212 with preventive visit",Modifier EP and 25 should be added to the Office/Outpatient code when provided on the same day as the EPSDT Periodic visit. Assign ONLY the appropriate sick codes to the Office/Outpatient E/M.
+73,MCD:GA,E/M with preventive visit,Georgia Medicaid and most CMOs will only allow 99211 or 99212 when provided on the same day as the EPSDT Periodic visit.
+74,MCD:GA,83655 with preventive visit - 12 and 24 months,83655 - Assign dx Z13.88 to 83655 with EP modifier. Providers must also bill 36415 or 36416 for the Lead Tests per Medicaid/Medicaid CMO guidelines.
+75,MCD:GA,EP modifier on E/M with vaccines,"When vaccines are administered during the interperiodic visit, code the EPSDT interperiodic visit (9920X, 9921X) with the EP and 25 modifiers."
+76,MCD:GA,Interperiodic Vision Screening,99173 - Use EP modifier and Z01.00 or Z01.01 or appropriate abnormal results code when performed during an interperiodic visit.
+77,MCD:GA,Interperiodic Hearing Screening,"V5008, 92551-92553, 92555-92556 - Use EP modifier and Z01.10, Z01.110 or Z01.118 or appropriate abnormal results code when performed during an interperiodic visit."
+78,MCD:GA,Developmental Screenings,"Developmental Screening - Providers must bill code 96110 with the EP modifier and the appropriate preventive ICD-10 diagnosis code (Z00.121, Z00.129, or Z02-Z02.89) at 9, 18, and 30 months. Catch up visits should be coded with EP, HA."
+79,MCD:GA,Autism Screenings,"Autism Screening - Providers must bill code 96110 with the EP, UA modifiers and Z13.41 or the applicable ICD-10 diagnosis code to receive reimbursement for the screening. For Peach State encounters, assign Z00.XX code first and Z13.41 as secondary."
+80,MCD:GA,Autism Screenings,"Autism screenings should be performed at the 18 and 24 month periodic visits (or catch-up visits). Providers must bill code 96110 with the EP, UA or EP, UA, HA modifiers and Z13.41 or the applicable ICD-10 diagnosis code to receive reimbursement for the screening. Do not assign Z13.41 for Peach State encounters. Use the appropriate Z00.XX code instead."
+81,MCD:GA,Medicaid Authorization,Medicaid requires authorization on claim for Inpatient Hospital visits.
+82,MCD:GA,Brief Emotional/Behavioral Assessments,"Providers should bill code 96127 with the EP modifier, POS 99 and the appropriate ICD-10 diagnosis code in order to receive reimbursement."
+83,MCD:GA,Patient-Focused Health Risk Assessments,"Providers should bill procedure code 96160 with the EP modifier, POS 99 and the appropriate ICD-10 diagnosis code in order to receive reimbursement. Amerigroup allows POS 11 with EP modifier."
+85,MCD:GA,Consultation Codes,"Providers enrolled in the EPSDT Program, may bill for reimbursement of the following office/outpatient consultation codes: 99242, 99243, 99244, 99245. The EP modifier must be added to the applicable code along any other applicable modifiers."
+86,MCD:GA,Tobacco Cessation Counseling Services,"EP modifier must be added to 99406, 99407 for the reimbursement of tobacco cessation counseling."
+87,MCD:GA,GA Medicaid Vaccines,"Providers should bill vaccine administration and product codes with EP modifiers, POS 99 and Z23. Assign ONLY the Z23 dx code."
+88,MCD:GA,Tuberculin (TB) Skin Test,"Providers should bill procedure code 85680 with the EP modifier, POS 99 and the Z11.1 in order to receive reimbursement."
+89,MCD:GA,Family Planning,Family Planning - The FP modifier and dx codes must be used on all applicable CPTs when visit was for family planning services. Assign family planning dx only to appropriate codes.
+92,MCD:GA,Waste Billing,JW/JZ modifiers - Use is not required on claims that are direct submission to Medicaid. Claims submitted directly to Medicaid with JW/JZ modifier will deny.
+93,MCD:GA,GA Medicaid CMO referring provider,Medicaid CMO plans may require the ordering/referring provider information. Add referring provider.
+94,MCD:GA,GA Medicaid referring provider,Georgia Medicaid may require the ordering/referring provider information. Add referring provider for Medicaid.
+95,MCD:GA,GA Medicaid - nursing home revenue code,GA Medicaid requires 0521 revenue code for nursing home visits.
+96,MCD:GA,96160-96161 with Vaccines,Georgia Medicaid/Medicaid CMOs does not allow reimbursement of the 96160/96161 codes when either is billed together with any of the vaccine administration codes unless the 59 modifier is appended to the 96160 and 96161 codes
+97,MCD:GA,99211 with vaccines,GA Medicaid does not allow reimbursement of the 99211 code when it is billed together with any of the vaccine administration codes
+98,MCD:GA,GA Medicaid preventive visits,All preventive visits must be coded with the EP modifier and place of service 99. Amerigroup allows POS 11 with EP modifier.
+99,ICD:CM,Bilateral CTS,"For bilateral carpal tunnel syndrome, use G56.03."
+100,ICD:CM,R06.0 Excludes1,R06.00-09 (Dyspnea) with R06.82 (tachypnea NOS) and/or P22.1 (transient tachypnea of newborn) identify conditions that cannot be reported together except when the conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+101,ICD:CM,J41 Excludes1,J41.0-8 (Simple and mucopurulent chronic bronchitis) with J42 (chronic bronchitis NOS) and/or J44-J44.9 (chronic obstructive bronchitis) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+102,ICD:CM,Bilateral cataracts,"For bilateral cataracts (H25.81X), use H25.813"
+103,ICD:CM,Bilateral cataracts,"For bilateral cataracts (H25.1X), use H25.13."
+104,ICD:CM,G89.2 Excludes1,"G89.2 (Chronic pain, not elsewhere classified) with causalgia, lower limb (G57.7-), causalgia, upper limb (G56.4-), central pain syndrome (G89.0), chronic pain syndrome (G89.4), complex regional pain syndrome II, lower limb (G57.7-), complex regional pain syndrome II, upper limb (G56.4-), neoplasm related chronic pain (G89.3), and/or reflex sympathetic dystrophy (G90.5-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+105,ICD:CM,M54.2 Excludes1,Cervicalgia (M54.2) with cervicalgia due to intervertebral cervical disc disorder (M50.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+106,ICD:CM,E08 Exlcudes1,"Diabetes mellitus due to underlying condition (E08.-) with drug or chemical induced diabetes mellitus (E09.-), gestational diabetes (O24.4-), neonatal diabetes mellitus (P70.2), postpancreatectomy diabetes mellitus (E13.-), postprocedural diabetes mellitus (E13.-), secondary diabetes mellitus NEC (E13.-), type 1 diabetes mellitus (E10.-), and/or type 2 diabetes mellitus (E11.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+107,ICD:CM,G30 Excludes1,"Alzheimers disease (G30.-) with senile degeneration of brain NEC (G31.1), senile dementia NOS (F03-F03.91), and/or senility NOS (R41.81) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+108,ICD:CM,R63.5 Excludes1,Abnormal weight gain (R63.5) with excessive weight gain in pregnancy (O26.0-) and/or obesity (E66.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+109,ICD:CM,R41 Excludes1,"Other symptoms and signs involving cognitive functions and awareness (R41.-) with dissociative [conversion] disorders (F44.-) and/or mild cognitive impairment, so stated (G31.84) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+110,ICD:CM,J00 Excludes1,"J00 Acute nasopharyngitis [common cold] excludes codes J02-J02.9, J31.0. J00 should not be reported with these codes."
+111,ICD:CM,R41.3 Excludes1,"Other amnesia (R41.3) should not be billed with F04, F1*, F06.8 or G45.4"
+112,ICD:CM,G43 Excludes1,Migraine (G43.-) with headache NOS (R51.9) and/or lower half migraine (G44.00) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+113,ICD:CM,G43.0 Excludes1,Migraine without aura (G43.0) with chronic migraine without aura (G43.7-G43.719) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+114,ICD:CM,Z72.821 Excludes1,"Inadequate sleep hygiene (Z72.821) with insomnia (F51.0-F51.09, G47.0-G47.09) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+115,ICD:CM,M54.1 Excludes1,"Radiculopathy (M54.1-) with neuralgia and neuritis NOS (M79.2), radiculopathy with cervical disc disorder (M50.1-M50.13), radiculopathy with lumbar and other intervertebral disc disorder (M51.1-M51.17), and/or radiculopathy with spondylosis (M47.2-M47.28) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+116,ICD:CM,M54.5 Excludes1,"Low back pain (M54.5x) with low back strain (S39.012), lumbago due to intervertebral disc displacement (M51.2-), and/or lumbago with sciatica (M54.4-) identify conditions that cannot be reported together. Remove M54.5x"
+117,ICD:CM,Z00 Excludes 1,"Encounter for general examination without complaint, suspected or reported diagnosis (Z00) with encounter for examination for administrative purposes (Z02.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+118,ICD:CM,E10 Excludes1,"Type1 diabetes mellitus(E10) with diabetes mellitus due to underlying condition(E08.-), drug or chemical induced diabetes mellitus(E09.-), gestational diabetes (O24.4-), elevated blood glucose (R73.-), neonatal diabetes mellitus(P70.2), postpancreatectomy diabetes mellitus(E13.-), postprocedural diabetes mellitus(E13.-), secondary diabetes mellitus NEC(E13.-), and/or type 2 diabetes mellitus(E11.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+119,ICD:CM,E11 Excludes1,"Type 2 diabetes mellitus (E11) with diabetes mellitus due to underlying condition (E08.-), drug or chemical induced diabetes mellitus (E09.-), gestational diabetes (O24.4-), elevated blood glucose (R73.-), neonatal diabetes mellitus (P70.2), postpancreatectomy diabetes mellitus (E13.-), postprocedural diabetes mellitus (E13.-), secondary diabetes mellitus NEC (E13.-), and/or type 1 diabetes mellitus (E10.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+120,ICD:CM,E09 Excludes1,"Drug or chemical induced diabetes mellitus (E09) with diabetes mellitus due to underlying condition (E08.-), gestational diabetes (O24.4-), elevated blood glucose (R73.-), neonatal diabetes mellitus (P70.2), postpancreatectomy diabetes mellitus (E13.-), postprocedural diabetes mellitus (E13.-), secondary diabetes mellitus NEC (E13.-), type 1 diabetes mellitus (E10.-), and/or type 2 diabetes mellitus (E11.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+121,ICD:CM,"Lesion of ulnar nerve, bilateral upper limbs","For lesion of ulnar nerve, bilateral upper limbs, use G56.23"
+122,ICD:CM,G31.84 Excludes1,"Mild cognitive impairment, so stated (G31.84) with age related cognitive decline (R41.81), altered mental status (R41.82), cerebral degeneration (G31.9), change in mental status (R41.82), cognitive deficits following (sequelae of) cerebral hemorrhage or infarction (I69.01-, I69.11-, I69.21-, I69.31-, I69.81-, I69.91-), cognitive impairment due to intracranial or head injury (S06.-), dementia (F01.-, F02.-, F03), mild memory disturbance (F06.8), neurologic neglect syndrome (R41.4), and/or personality change, nonpsychotic (F68.8) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+123,ICD:CM,J45 Excludes1,"Asthma (J45) with detergent asthma (J69.8), eosinophilic asthma (J82), miners asthma (J60), wheezing NOS (R06.2), and/or wood asthma (J67.8) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+124,ICD:CM,Z72.0 Excludes1,"Tobacco use (Z72.0) with history of tobacco dependence (Z87.891), nicotine dependence (F17.2-), tobacco dependence (F17.2-), and/or tobacco use during pregnancy (O99.33-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+125,ICD:CM,N39.0 Excludes1,"Urinary tract infection, site not specified (N39.0) with candidiasis of urinary tract (B37.4-), neonatal urinary tract infection (P39.3), and/or urinary tract infection of specified site, such as: cystitis (N30.-), urethritis (N34.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+126,ICD:CM,R06 Excludes1,"Abnormalities of breathing (R06) with acute respiratory distress syndrome (J80), respiratory arrest (R09.2), respiratory arrest of newborn (P28.81), respiratory distress syndrome of newborn (P22.-), respiratory failure (J96.-), and/or respiratory failure of newborn (P28.5) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+127,ICD:CM,Bilateral Primary OA of Knee,"For Bilateral Primary OA of Knee, use M17.0."
+128,ICD:CM,F20 Excludes1,"Schizophrenia (F20) and brief psychotic disorder, cyclic schizophrenia (F25.0), mood [affective] disorders with psychotic features (F30.2, F31.2, F31.5, F31.64, F32.3, F33.3), schizoaffective disorder (F25.-), and schizophrenic reaction NOS (F23) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+129,ICD:CM,F30 Excludes1,"Manic Episode (F30) and bipolar disorder (F31.-), major depressive disorder, recurrent (F33.-), and/or major depressive disorder, single episode (F32.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+130,ICD:CM,F31 Excludes1,"Bipolar Disorder (F31.-) and bipolar disorder, single manic episode (F30.-), major depressive disorder, recurrent (F33.-), and/or major depressive disorder, single episode (F32.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+131,ICD:CM,H72.00 - unspecified ear,"H72.00 - Central perforation of tympanic membrane, unspecified ear. Update to a specified code if possible. H72.01 (right ear), H72.02 (left ear), or H72.03 (bilateral ear)."
+132,ICD:CM,F32 Excludes1,"Major depressive disorder, single episode (F32.-) and bipolar disorder (F31.-), manic episode (F30.-), and/or recurrent depressive disorder (F33.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+133,ICD:CM,F33 Excludes1,"Major depressive disorder, recurrent (F33.-) and bipolar disorder (F31.-) and/or manic episode (F30.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+134,ICD:CM,F41.0 Excludes1,Panic disorder [episodic paroxysmal anxiety] (F41.0) and panic disorder with agoraphobia (F40.01) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note
+135,ICD:CM,F84.0 Excludes1,Autistic disorder (F84.0) and Aspergers syndrome (F84.5) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note
+136,ICD:CM,R46.81 Excludes1,Obsessive-compulsive behavior (R46.81) and obsessive-compulsive disorder (F42-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note.
+137,ICD:CM,F03 Excludes1,Unspecified dementia (F03) and senility NOS (R41.81) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+138,ICD:CM,F10.1 Excludes1,"Alcohol abuse (F10.1) and alcohol dependence (F10.2-), alcohol use, unspecified (F10.9-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note."
+139,ICD:CM,F11.1 Excludes1,"Opioid abuse (F11.1) and opioid dependence (F11.2-), and/or opioid use, unspecified (F11.9-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note."
+140,ICD:CM,Z31.89 Excludes2,"Encounter for other procreative management (Z31.89) and complications associated with artificial fertilization (N98.-), female infertility (N97.-), or male infertility (N46.-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes 2 note guideline."
+141,ICD:CM,M78.12 Excludes1,"Complete rotator cuff tear or rupture not specified as traumatic (M75.12) and ear of rotator cuff, traumatic (S46.01-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+142,ICD:CM,J30.9 Excludes1 Guidelines,J30.9 with J45.909 and/or J31.0 identify two conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 guideline.
+143,ICD:CM,J06.9 Excludes1 Guidelines,J06.9 with J22 and/or J02.0 identify two conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 guideline.
+144,ICD:CM,R07.0 Excludes 1,R07.0 (Pain in throat) with J02.9 (sore throat (acute) NOS) and/or J31.2 (chronic sore throat) identify conditions that cannot be reported together except when the conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+145,ICD:CM,M51.16 Excludes1,"M51.16 (Intervertebral disc disorders with radiculopathy, lumbar region) with M54.16 (lumbar radiculitis NOS) and/or M54.3 (sciatica NOS) identify two conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+146,ICD:CM,M54.3 Excludes1,"M54.3 (Sciatica) with M57.0-G57.02 (lesion of sciatic nerve), M51.1-M51.17 (sciatica due intervertebral disc disorder), and/or M54.4-M54.42 (sciatica with lumbago) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+147,MCD:IL,T1015,Use T1015 as the first listed CPT code with CPT codes listed as informational codes.
+148,MCD:IL,POS/claim type,RHC office claims are billed with POS 72 on 1500 claim form.
+149,MCD:IL,T1015 with S5190,"S5190 - Wellness assessment, performed by non-physician cannot be billed with T1015."
+150,MCD:IL,Vaccines without qualifying visit,"Bill the VFC vaccine with the Wellness Visit procedure code, S5190, when a child presents solely for the injection."
+151,MCD:IL,Originating Site: Telehealth,"RHC Telehealth Originating site: Bill T1015, Q3014"
+152,MCD:IL,Qualifying visit,An RHC qualifying visit is not present - bundle with qualifying visit.
+153,MCD:IL,NDC requirement,Illinois Medicaid requires NDC information.
+154,MCD:IL,99211 for vaccines only,Bill 99211 or other outpatient visit for evaluation and management not requiring the presence of a physician and bill the specific vaccine procedure codes.
+155,MCD:IL,T1015 in non-RHC setting,T1015 is used for encounter billing only - review CPT vs place of service.
+156,INTEG,11045 - Add-on code,11045 is missing the primary procedure. Use 11045 in conjunction with 11042.
+157,INTEG,13133 - Add-on code,"13133 is missing the primary procedure code. Use 13133 in conjunction with 13132 (Repair, complex, forehead, cheeks, chin, mouth, neck, axillae, genitalia, hands and/or feet, 2.6 cm to 7.5 cm) for each additional 5 cm."
+158,INTEG,13153 - Add-on code,"13153 is missing the primary procedure code. Use 13153 in conjunction with 13152 (Repair, complex, eyelids, nose, ears and/or lips, 2.6 cm to 7.5 cm) for each additional 5 cm."
+159,INTEG,11008 - Add-on code,"11008 is missing the primary procedure code. Use 11008 in conjunction with 10180, 11004-11006."
+160,INTEG,CPT Code Section (15851-15854),"Review procedure performed under anesthesia (other than local) billed in an office setting. See CPT 15853 (removal of sutures OR staples not requiring anesthesia) /15854 (Removal of sutures AND staples, not requiring anesthesia)."
+161,INTEG,11046 - Add-on code,11046 is missing the primary procedure. Use 11046 in conjunction with 11043
+162,INTEG,11047 - Add-on code,11047 is missing the primary procedure. Use 11047 in conjunction with 11044.
+163,INTEG,11103 - Add-on code,"11103 is missing the primary procedure. Report 11103 in conjunction with 11102, 11104, 11106, ."
+164,INTEG,11105 - Add-on code,"11105 is missing the primary procedure. Report 11105 in conjunction with 11104, 11106."
+165,INTEG,11107 - Add-on code,11107 is missing the primary procedure. Report 11107 in conjunction with 11106.
+166,INTEG,11201 - Add-on code,11201 is missing the primary procedure. Use 11201 in conjunction with 11200.
+167,INTEG,13122 - Add-on code,"13122 is missing the primary procedure code. Use 13122 in conjunction with 13121 (Repair, complex, scalp, arms, and/or legs, 2.6 cm to 7.5 cm) for each additional 5 cm."
+168,INTEG,13102 - Add-on code,13102 is missing the primary procedure code. Use 13102 in conjunction with 13101
+169,LABS,87804 Units,Adjust units for 87804 when testing for Flu A and Flu B
+170,LABS,Drug Testing - Medical Necessity,Drug Testing - ICD-10 codes that support medical necessity may not be present. Review diagnosis coding and payer policy.
+171,LABS,Bilirubin ICD-10-CM Code,"82247, 88720 - Use Z13.228 (Encounter for screening for other metabolic disorder) if performed during routine well-child visit without a medical dx to cover lab being performed. (Ex: Jaundice)"
+172,LABS,Dyslipidemia Screening ICD-10-CM Code,"80061, 82465, 83718, 84478 - Use Z13.220 (Encounter for screening for lipid disorders) if performed during routine well-child visit without a medical dx to cover lab being performed."
+173,LABS,Anemia Screening ICD-10-CM Code,"85018 - Use Z13.0 (Encounter for screening for diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism (eg, anemia)) if performed during routine well-child visit."
+174,LABS,Lead Screening CPT® Code,83655 - Use Z13.88 (Encounter for screening for disorder due to exposure to contaminants) if performed as a screening.
+175,LABS,Administration of PPD Test,Administration of PPD Test (86580) should be billed with Z11.1 (Encounter for screening for respiratory tuberculosis).
+176,LABS,Sexually Transmitted Infection and HIV Screening CPT ® Codes,"Sexually Transmitted Infection and HIV Screening CPT Codes - Use Z11.3 (Screening for infections with a predominantly sexual mode of transmission (excludes HPV and HIV)), Z11.4 (Screening for HIV), Z11.51 (Screening for human papillomavirus (HPV)) or Z11.8 (Screening for other infectious and parasitic diseases (eg, chlamydia)) if performed during routine well-child visit as a screening."
+177,LABS,General Health Panel,"Use 80050 for general health panel. This panel must include the following: Comprehensive metabolic panel (80053) Blood count, complete (CBC), automated and automated differential WBC count (85025 or 85027 and 85004) OR Blood count, complete (CBC), automated (85027) and appropriate manual differential WBC count (85007 or 85009), and Thyroid stimulating hormone (TSH) (84443). Normally, codes 80053, 85025 and 84443 are used for the panel."
+178,LABS,Medicare General Health Panel,"80050 is not reimbursed by payer. Unbundle labs and bill individually. Normally offices order 80053, 85025 and 84443 for this panel."
+179,LABS,CLIA Waived Test,CLIA waived tests are present - review and add modifier QW to CLIA waived tests.
+180,LABS,CLIA Waived Test,CLIA waived tests are present - review and add modifier QW to CLIA waived tests.
+181,LABS,81025 - Medical Necessity,81025 - Review encounter for supportive diagnosis for pregnancy test.
+183,LABS,VT Medicaid labs,CLIA waived tests are present - review and add modifier QW to CLIA waived tests.
+184,LABS,Drug Testing - Medical Necessity Other than Medicare,Drug Testing - ICD-10 codes that support medical necessity may not be present. Review diagnosis coding and payer policy.
+185,LABS,"81000-81003, 80305-80307","Per CCI guidelines, 81000-81003 has an unbundle relationship with 80305-80307. Review documentation to determine if a modifier override is appropriate."
+186,NEURO,G0453 Add-on,"G0453 is missing the primary procedure code. Use G0453 in conjunction with the study performed:92653, 95822, 95860-95870, 95907-95913, 95925, 95926, 95927, 95928, 95929, 95930-95937, 95938, 95939"
+187,NEURO,64462 - Add-on Code,64462 is missing the primary procedure. Use 64462 in conjunction with 64461.
+188,NEURO,"95885, 95886 - Add-on code","95885 or 95886 is missing the primary procedure code. Use 95885, 95886 in conjunction with 95907-95913."
+189,NEURO,95941,Medicare/United Healthcare: Code 95941 is considered invalid for reimbursement purposes. See code G0453.
+190,NEURO,IONM Place of Service,"Review place of service: The American Academy of Neurology states IONM services should be performed in Place of Service (POS) 19, 21, 22 or 24."
+191,NEURO,Imaging guidance included,"Imaging guidance is included in the injection administration code. Review coding per CPT guidelines - do not report 62321, 62323, 62325, 62327 in conjunction with 77003, 77012, 76942."
+192,NEURO,Injections,Injection code is present without a drug. Review chart for drug used. Add drug if office supplied.
+193,NEURO,SSEP Upper and Lower Limbs,"95925 and 95926 should not be reported together. See code 95938 (Short-latency somatosensory evoked potential study, stimulation of any/all peripheral nerves or skin sites, recording from the central nervous system, in upper and lower limbs)"
+194,NEURO,CMEP upper and lower limbs,"95928 and 95929 should not be reported together. See 95939 (Central motor evoked potential study (transcranial motor stimulation), in upper and lower limbs)."
+195,NEURO,95941 Add-on Code,"95941 is missing the primary procedure code. Use 95941 in conjunction with the study performed: 92653, 95822, 95860-95870, 95907-95913, 95925, 95926, 95927, 95928, 95929, 95930-95937, 95938, 95939 95867, 95868, 95870, 95900, 95904, 95925-95937"
+196,NEURO,"95873, 95874 Add-On Code","95873 and/or 95874 is missing the primary procedure code. Use 95873, 95874 in conjunction with 64612, 64615, 64616, 64642, 64643, 64644, 64645, 64646, 64647."
+197,NEURO,Injections,Injection code is present without a drug. Review chart for drug used. Add drug if clinic supplied.
+198,NEURO,Missing drug,Destruction of Neurolytic Agent or Chemodenervation code is present without a drug. Review chart for drug used. Add drug if clinic supplied.
+199,NEURO,64480 - Add-on Code,64480 is missing the primary procedure. Use 64480 in conjunction with 64479
+200,NEURO,64484 - Add-on Code,64484 is missing the primary procedure. Use 64484 in conjunction with 64483.
+201,MCD:OH,RHC visit,RHC medical services visits are reported with T1015 and modifier U1.
+202,MCD:OH,Telemedicine originating site fee,Telemedicine originating site fee is reported with T1015 and modifier UA.
+203,MCD:OH,VFC Vaccines,Providers participating in the VFC program must use modifier “SL” on the claim line for the vaccine.
+204,MCD:OH,CLIA Waived Test,CLIA waived tests are present - review and add modifier QW to CLIA waived tests.
+205,MCD:OH,Modifier SA,Modifier SA is required when a supervising physician bills on behalf of a mid-level provider for non-surgical services.
+206,MCD:OH,RHC visit,RHC medical services visits are reported with T1015 and modifier U1.
+207,MCD:OH,NDC requirement,"Providers billing HCPCS codes in the J series and Q or S series, that represent drugs and CPT codes 90281 – 90399 series (immune globulins) must include the 11 digit NDC number."
+208,MCD:OH,90461,CPT code 90460 should be reported separately for each administration of a vaccine toxoid CPT code. ODM does not recognize CPT 90461 for the reporting of additional toxoid components of combination vaccines.
+209,OPHTH,Medicare Routine Exam,Medicare does not cover routine eye exams.
+210,OPHTH,Medicare referring provider - Ophthalmology,Medicare may require the ordering/referring provider information. Add referring provider for Medicare.
+211,MCD:OR,NDC requirements,Oregon Medicaid requires NDC information.
+212,MCD:OR,RHC Visit,An RHC qualifying visit is not present - bundle encounter with qualifying visit.
+213,MCD:OR,RHC Claim Type,Encounters are submitted on 1500 claim forms.
+214,MCD:OR,VFC Vaccines,VFC vaccines should be billed with appropriate modifier -SL or -26.
+215,ORTHO,Synvisc Series vs Synvisc One,"Review chart to verify administration of Synvisc One vs Synvisc series injections. Synvisc series = 16 units, Synvisc One = 48 units"
+216,ORTHO,Long arm cast supplies,"Long arm cast supplies (Q4005, Q4006, Q4007, Q4008) should be coded with 29065."
+217,ORTHO,Short arm cast supplies,"Short arm cast supplies (Q4009, Q4010, Q4011, Q4012) should be coded with 29075."
+218,ORTHO,Long arm splint supplies,"Long arm splint supplies (Q4017, Q4018, Q4019, Q4020, L*) should be coded with 29105."
+219,ORTHO,Short arm splint supplies,"Short arm splint supplies (Q4021, Q4022, Q4023, Q4024, L*) should be coded with application of splint."
+220,ORTHO,Cylinder Cast,"29358: Code with caution: this casting technique is rarely performed, having been replaced by a pre-fabricated long leg brace."
+221,ORTHO,Long leg cast supplies,"Long leg cast supplies (Q4029, Q4030, Q4031, Q4032) should be coded with 29345, 29355."
+222,ORTHO,Short leg cast supplies,"Short leg cast supplies (Q4037, Q4038, Q4039, Q4040) should be coded with 29405, 29425."
+223,ORTHO,Pediatric Supplies,Supply code used is not appropriate for the age of the patient. Code is used for patients aged 0-10 years old.
+224,ORTHO,Cast/Splint Supplies,Supply code used is not appropriate for the age of the patient. Code is used for patients aged 11+ years old.
+225,ORTHO,Medicare 27216,27216 is not covered by Medicare in any payment system. See code G0413.
+227,ORTHO,Medicare 27215,27215 is not covered by Medicare in any payment system. See code G0412.
+228,ORTHO,Medicare 27217,27217 is not covered by Medicare in any payment system. See code G0414.
+229,ORTHO,Medicare 27218,27218 is not covered by Medicare in any payment system. See code G0415.
+230,ORTHO,Bilateral knee injection,"If bilateral knee injections were performed, Medicare requires reporting 20610/20611 with modifier 50 rather than listing injections separately. Other payers may follow these guidelines."
+231,ORTHO,"64493, 64483 - W/C","Review billing guidelines for 64483, 64493 when billing Workers Compensation"
+232,ORTHO,"29819 and 29827, 29807",The loose body must be larger than 5 mm in order to report (29819-59).
+233,ORTHO,"29916, 29915",29915 should not be reported with 29916 - acetabuloplasty is included in the global service description of 29916 when performed on the same hip.
+234,ORTHO,"29914, 29915, 29862, 29863",Do not report 29914 or 29915 with 29862 or 29863 when performed on the same hip per CPT guidelines.
+235,ORTHO,29881-AS Medicare,Medicare payment restriction for assistants at surgery applies to 29881 unless supporting documentation is submitted to establish medical necessity.
+236,ORTHO,Cast Supplies,Report cast supplies with the appropriate Q codes.
+237,ORTHO,Splint Supplies,Report splint supplies with the appropriate Q codes.
+238,PREVENT,NA,See codes Z13.41 (Encounter for autism screening) and/or (Z13.42 Encounter for screening for global developmental delays (milestones)) to support 96110.
+239,PREVENT,"99381, 99391 Age Alert",CPT used is not appropriate for the age of the patient - Patient is older than 1 year old
+240,PREVENT,"99497, 99498 - Preventive","99497, 99498 is billed with modifier 33 when performed during a preventive visit."
+241,PREVENT,Preventive E/M - Medicare,Medicare does not reimburse preventive medicine E/M services
+242,PREVENT,Age vs ICD-10 Discrepancy,"For a health check for newborn under 8 days old, use Z00.110"
+243,PREVENT,Age vs ICD-10 Discrepancy,"For a health check for newborn 8 to 28 days old, use Z00.111"
+244,PREVENT,Child health check diagnosis,"For encounter for routine child health examination, use Z00.121 or Z00.129"
+245,PREVENT,Adult preventive diagnosis,"For general adult medical examination, use Z00.00 or Z00.01"
+246,PREVENT,"99406, 99407",Diagnosis is not present for smoking and tobacco use cessation counseling codes. Review encounter for medical necessity.
+247,PREVENT,IPPE EKG Screening,"G0403, G0404, and G0405 is reported with G0402 (IPPE AKA Welcome to Medicare exam) only. Must be performed within the first 12 months of Part B coverage."
+248,PREVENT,IPPE EKG Tracing,93005 should not be reported with G0402 - See G0404.
+249,PREVENT,IPPE EKG Interpretation and Report,93010 should not be reported with G0402 - See G0405.
+250,PREVENT,"99382, 99392 Age Alert",CPT used is not appropriate for the age of the patient - Patient is either younger than 1 year old or older than 4 years old
+251,PREVENT,G0447,G0447 must be submitted with an appropriate BMI diagnosis - review coding.
+252,PREVENT,Preventive Exam ICD-10,Preventive Exam ICD-10 - Review encounter for age appropriate diagnosis for preventive visit.
+253,PREVENT,Medicare 99401-99404,Preventive medicine counseling and/or risk factor reduction intervention(s) is not covered by Medicare.
+254,PREVENT,Counseling codes,Counseling codes (99401–99404) cannot be reported in addition to preventive medicine service codes(99381–99385 and 99391–99395).
+255,PREVENT,"PREVENTIVE MEDICINE, COUNSELING",ICD-10-CM Codes for Preventive Counseling will vary depending on the reason for the encounter. Review for possible missing diagnosis (alert dx codes are not all inclusive).
+256,PREVENT,Pediatric Smoking Cessation,"Warning - 99406, 99407 is only used when counseling a patient on smoking cessation. Time spent counseling the parent or guardian falls under the E/M service time."
+257,PREVENT,"Behavior Change Interventions, Individual","Behavior Change Interventions, Individual - Review encounter for possible missing ICD-10 codes."
+258,PREVENT,Vision Screening,"Per AAP: Z01.00 and Z01.01 (examination of eyes and vision with and without abnormal findings) are reported only for routine examination of eyes and vision, not when a vision screening is done during a routine well-child examination. Review payer guidelines."
+259,PREVENT,Hearing Screening,"Per AAP: Codes Z01.10 (encounter for examination of ears and hearing without abnormal findings) and Z01.118 (encounter for examination of ears and hearing with other abnormal findings) are reported only when a patient presents for an encounter specific to ears and hearing, not for a routine well-child examination at which a hearing screening is performed. Review payer guidelines."
+260,PREVENT,"99383, 99393 Age Alert",CPT used is not appropriate for the age of the patient - Patient is either younger than 5 years old or older than 11 years old
+261,PREVENT,Vision Screening,Z01.00 and Z01.01 (examination of eyes and vision with and without abnormal findings) are reported for routine examination of eyes and vision outside of a routine well-child exam.
+262,PREVENT,Hearing Screening,"Z01.10 (encounter for examination of ears and hearing without abnormal findings), Z01.118 (encounter for examination of ears and hearing with other abnormal findings) and Z01.110 (Encounter for hearing examination following failed hearing screening) are reported when a patient presents for an encounter outside of a routine well-child exam."
+263,PREVENT,96160/90460-90480,"96160/96161 is included with procedure 90460, 90471, 90473, 90480. When appropriate, modifier 59 can be added on to either code 96160 or 96161 to override."
+264,PREVENT,"99384, 99394 Age Alert",CPT used is not appropriate for the age of the patient - Patient is either younger than 12 years old or older than 17 years old
+265,PREVENT,"99385, 99395 Age Alert",CPT used is not appropriate for the age of the patient - Patient is either younger than 18 years old or older than 39 years old
+266,PREVENT,"99386, 99396 Age Alert",CPT used is not appropriate for the age of the patient - Patient is either younger than 40 years old or older than 64 years old
+267,PREVENT,"99387, 99397 Age Alert",CPT used is not appropriate for the age of the patient - Patient is younger than 65 years old
+268,PREVENT,IPPE EKG Screening,"93000 should not be billed with G0402 when performed as a screening EKG - see G0403. If performed for a medical reason, assign modifier 59 to 93000."
+269,PREVENT,"99497, 99498 - AWV","99497, 99498 is billed with modifier 33 when performed during an annual wellness visit."
+270,RADIO,77001 Add-On Code,77001 - Report 77001 in addition to code for primary procedure. The primary procedure code is missing.
+271,RADIO,77002 Add On Code,77002 - Report 77002 in addition to code for primary procedure.
+272,RHC,Medicare Qualifying Visit,An RHC qualifying visit is present on the encounter. Report modifier CG on one revenue code 052x and/or 0900 (for Behavioral Health) service line per day
+275,RHC,Medicare labs - Provider-based,Labs are billed to Medicare Part A on UB-04 in the LABS location for provider based RHCs.
+276,RHC,36415 - Provider-based,36415- venipuncture is included in AIR - bundle with qualifying visit.
+277,RHC,36415 - Independent RHC,36415- venipuncture is included in AIR - bundle with qualifying visit.
+278,RHC,NA,Influenza and Pneumococcal Vaccines and their administrations codes are not billable - do not report on UB-04. Select “do not show at CPT level and change value to $0.00 (Do not delete from encounter or bundle.)
+279,RHC,Hospital rounds are billed to Medicare Part B,Inpatient/Outpatient visits are billed to Medicare Part B on 1500
+281,RHC,CPT UB-04,Change all codes to “UB-04” otherwise the encounter will split (even the codes marked do not show.)
+282,RHC,Labs Rev Code,The revenue code for labs should be 0300. Update fee schedule and edit revenue code at the CPT line.
+283,RHC,Medicare Advantage Qualifying Visit,An RHC qualifying visit is present on the encounter. Report modifier CG on one revenue code 052x and/or 0900 (for Behavioral Health) service line per day
+284,RHC,Nursing facility,"If there are numerous dates of service for nursing home visits, add the date span on the UB side of the claim in Azalea in Box 6 (From and Through date)"
+285,RHC,99341-99350 - Improper rev code,99341-99350 should be billed with revenue code 0522. Update fee schedule and edit revenue code at the CPT line
+286,RHC,99341-99350 - Medicare,99341-99350 should be billed on UB-04.
+287,RHC,NA,"Visit by RHC practitioner to member in SNF (no Part A stay) or NF or ICF or other residential facility. POS 32, 54, 56 should have 0525 rev code."
+288,RHC,NA,Visit by RHC practitioner to a member in a covered Part A stay at the Skilled Nursing Facility (SNF/Swing Bed) should be billed with revenue code 0524
+289,RHC,Commercial payers are billed on HCFA.,UB-04 is the incorrect claim type for this payer.
+290,RHC,NA,Home visits are billed to Medicare Part A with revenue code 0522 (Home visit by RHC/FQHC practitioner) on a UB-04
+292,RHC,99341-99350 - Improper rev code,99341-99350 should be billed with revenue code 0522. Update fee schedule and edit revenue code at the CPT line
+294,RHC,99211 RHC,99211 does not meet RHC billing guidelines
+295,RHC,NA,Place of Service codes 11 (Office) or 99 (Other Place of service) are not accepted when rendering service in a RHC.
+296,RHC,Medicare Advantage - UB04 - Provider Based RHC,Medicare Advantage plans should be billed on a UB04 - UB04 is not selected on the CPT line(s)
+297,RHC,Medicare Advantage - RHC Labs,Labs are billed on a separate encounter with POS 72 on a 1500 claim form.
+298,RHC,Medicare Advantage - UB04 - Independent RHC,Medicare Advantage plans should be billed on UB04 - UB04 is not selected on the CPT line(s)
+299,RHC,Radiology - RHC,The professional component of radiology codes is bundled with a qualifying visit with appropriate revenue code.
+300,RHC,IPPE EKG Screening,G0403 must be split into technical and professional components - see codes G0404 for technical and G0405 for professional.
+301,RHC,93000 RHC,93000 cannot be billed in RHC - Split claim for the technical (93005) and professional component (93010)
+302,RHC,Commercial RHC POS,Update the Place of Service to OFFICE (11)
+303,RHC,Bill Medicare Part A,RHC services are billed to Medicare Part A on UB04.
+304,RHC,Medicare Labs - Independent RHC,Labs are billed to Medicare Part B on a 1500 with POS 72
+305,GASTRO,49568 Add-on,"Report 49568 in addition to 11004-11006 or 49560-49566. When mesh or a prosthesis is implanted at the time of an incisional or a ventral hernia repair, report 49568 in addition to the primary procedure code."
+306,TELE,Commercial Telehealth,"Review payer guidelines for proper modifier usage for telehealth claims, if applicable."
+307,TELE,Telemedicine modifier ARKANSAS,Telehealth should be billed with a GT or 95 modifier in the first modifier position with POS 02
+309,TELE,Tricare Telehealth,"Tricare - Use 95, GT or GQ modifier with POS 10 or 02 when submitting telehealth claims."
+310,TELE,AR Medicaid,AR Medicaid - Use modifier 95 when submitting telehealth claims with POS 02 or 10.
+311,TELE,Alabama BCBS,AL BCBS - Telehealth should be billed with a GT or 95 modifier.with POS 10/02
+312,TELE,"GA, CO, KY, ME, MO, NV, NH, OH, VA, WI",Codes are specific to telehealth services and do not require the use of telehealth modifiers.
+313,TELE,BCBS SC Telehealth,SC BCBS - Use GT or 95 modifier when submitting telehealth claims.
+314,TELE,Texas BCBS,"TX BCBS - Telehealth should be billed with modifiers 95, GT, GQ and Place of Service 02. POS 10 not allowed until futher notice."
+315,TELE,BCBS CA Telehealth,Use GT or GQ modifier is required when no telehealth specific code has been reported.
+316,TELE,Humana Commercial,"Humana requires a provider to submit a charge for a telehealth service with modifier GT, modifier 95 or POS code 02 or 10."
+317,TELE,Modifier G0,"Use modifier G0 for Telehealth services for purposes of diagnosis, evaluation, or treatment of symptoms of an acute stroke"
+318,TELE,"GA, CO, KY, ME, MO, NV, NH, OH, VA, WI","Anthem BCBS requires one of the telehealth-associated modifiers GT, GQ, 95 ( audio and video) or 93 (audio only), FQ (audio only applies to Behavioral Health) to be reported when performing a service via Telehealth."
+319,TELE,Place of service,Review place of service and/or payer guidelines. Telehealth modifiers may be needed on claims with place of service 10 or 02.
+320,TELE,GA Medicaid Telehealth,"Add GT modifier and/or POS 02/POS 10 for Telehealth services. Modifier 93 can be appended to claim lines, as appropriate, for services furnished using audio-only communications technology. The GQ modifier is still required as applicable."
+321,TELE,NA,"Do not report GT modifier (via interactive audio and video telecommunications systems) on professional claims for telehealth services. Note that for distant site services billed under Critical Access Hospital (CAH) method II oninstitutional claims, the GT modifier will still be required."
+322,TELE,NA,"Humana Medicare requires a provider to submit a charge for a telehealth service with the place of service (POS) code that would have been reported had the service been furnished in person. In addition, Humana requires a provider to report a telehealth or other virtual service with modifier 93, 95 or modifier FQ as applicable, to identify that the service was furnished via telecommunications-based technology."
+324,TELE,MO Medicaid,MO Medicaid - Use GT modifier when submitting telehealth claims
+325,TELE,Invalid modifier for telehealth,"Review coding - 95, GT or GQ modifier is not approved for the code used. Refer to payer guidelines for assistance. Payer may extend list of approved codes during pandemic."
+327,MCD:TN,NDC Requirement,Amerigroup TN requires NDC numbers on drug codes.
+328,MCD:TX,Provider modifier,Medical services must be billed using AM modifier for physician services.
+329,MCD:TX,NA,Physicians who submit a claim using the physician’s own provider identifier for services provided by anNP or CNS must submit modifier SA on each claim detail if the physician does not make a decisionregarding the client’s care or treatment on the same date of service as the billable medical visit
+330,MCD:TX,FQHC,Child wellness visits must have EP Modifier in addition to the modifiers used to identify whoperformed the medical checkup
+331,MCD:TX,NA,Place of service 72 must be used on the CMS-1500 claim form when billing for services other than general medical.
+332,MCD:TX,T1015,Texas RHCs must use the encounter code T1015.
+333,MCD:TX,Family Planning,Annual family planning examination requires modifier FP on the E/M code and a family planning diagnosis code
+334,MCD:TX,Preventive with vaccine administration,"Append modifier 25 to the preventive E/M visit procedure code to identify a significant, separately identifiable E/M service that was rendered by the same provider on the same day as the immunization administration."
+336,MCD:TX,NDC Requirement,Texas Medicaid requires NDC numbers on drug codes.
+337,UNVSL,J3301 NOC,J3301 NOC - TRIAMCINOLONE ACETONIDE X UNITS AT 10 MG EACH
+338,UNVSL,Pediatric BMI Age,BMI pediatric codes are for use for persons 2-19 years of age.
+339,UNVSL,Medicare Primary and Secondary,Medicare should not be set as the primary and secondary insurance - review insurance settings
+340,UNVSL,Medicare vs Medicare CMO,Medicare and Medicare Replacement plans should not be listed together - Review insurance settings.
+341,UNVSL,Medicaid Primary and Secondary,Medicaid/Medicaid CMOs should not be set as the primary and secondary insurance - review insurance settings
+342,UNVSL,Medicaid Primary,Medicaid should not be primary when reporting other payers - Review insurance settings.
+343,UNVSL,TCFL Primary,Tricare for Life should not be the primary insurance - Review insurance settings.
+344,UNVSL,Tricare Primary,Tricare should not be the primary insurance - Review insurance settings. Note that Tricare supplements and Medicaid plans will be secondary to Tricare.
+346,ORTHO,Missing J code,"Arthrocentesis, aspiration and/or injection code is present without drug (J code). Review chart for drug used, if applicable. Add drug if clinic supplied."
+347,ORTHO,Missing J code,Injection code is present without drug (J code). Review chart for drug used. Add drug if clinic supplied.
+348,UNVSL,Medicare referring provider,Medicare may require the ordering/referring provider information. Add referring provider for Medicare.
+349,E&M,"99221-99223, 99231-99233 Improper place of service","99221-99223, 99231-99233 should be billed with an inpatient or observation place of service. Review place of service versus inpatient/obs CPT code(s)."
+350,E&M,"99304-99310,99315-99316 Improper place of service","99304-99310, 99315-99316 should be billed with place of service 31, 32, 34, 54 or 56. Review place of service versus CPT code(s)."
+351,E&M,"99324-99328, 99334-99337 - Improper place of service","99324-99328 and 99334-99337 should be billed with place of service 13, 14, 33 or 55. Review place of service versus CPT codes."
+352,E&M,99341-99350 - Improper place of service,"99341-99350 should be billed with place of service 12, 13, 14, 16, 33 or 55 - Review place of service versus CPT codes."
+353,UNVSL,Workers Comp - NDC information,Remove NDC information for Workers Compensation claims
+354,UNVSL,"99242-99245, 99252-99255 - Medicare",Medicare/Medicare Replacement plans do not reimburse consultation codes
+355,UNVSL,"99242-99245, 99252-99255",Payer does not reimburse consultation codes
+356,UNVSL,Medicare DME,Durable medical equipment (DME) must be billed to DMERC - Review insurance setting for DME
+357,UNVSL,DME billing,Place of service should be home (12) for DME per billing guidelines
+358,UNVSL,Workers Comp - DME,Send DME invoice with Workers Compensation claims
+359,UNVSL,External cause codes,External cause code cannot be used as Principal/Primary Diagnosis code. Reorder diagnosis if necessary.
+360,MEDSV,99211 and 95115/95117,99211 may not be separately reimbursable with allergy immunotherapy injections.
+361,AUDIO,69210 - Anatomical Modifiers,Medicare considers 69210 to be bilateral. Do not use anatomical modifiers.
+362,UNVSL,UHC - NDC requirement,United Healthcare requires NDC information
+363,UNVSL,BMI diagnosis,BMI diagnosis code cannot be used as the principal/primary diagnosis code. Reorder diagnosis if necessary.
+366,E&M,Consultation Codes - Referring Provider,Referring provider is not present for the consultation code. Add referring provider.
+367,UNVSL,S Code - Non-Medicare,S codes are not reimbursed by Medicare
+368,AUDIO,69209 bilateral,"Review chart - 69209 may be bilateral. If so, bill as 1 unit and double billed amount. Apply modifier 50."
+369,MEDSV,96372 Units,Units should be adjusted for 96372 if medication was injected in multiple sites
+370,UNVSL,Patient over age 65 with UHC,Review insurance settings. Patient is 65 years old or over. Patient may have an United Healthcare Medicare plan.
+371,E&M,CPT vs POS mismatch,"99217-99219, 99224-99226 should be billed with an outpatient place of service. Review place of service versus observation CPT code(s)."
+372,E&M,CPT vs POS mismatch,99234-99236 should be billed with an outpatient or inpatient facility place of service. Review place of service versus CPT code(s).
+373,UNVSL,99211 with vaccine administration,"The National Correct Coding Initiative (NCCI) does not allow reimbursement of the 99211 code when it is billed together with any of the vaccine administration codes (90460, 90471, 90472, 90473, 90474, 90480, G0008, G0009, G0010, 0001A-0174A)."
+374,MEDSV,99000,99000 is not covered by Medicare in any payment system.
+375,E&M,99498 - Add-On Code,99498 is an add-on code. Use 99498 in conjunction with 99497.
+376,MEDSV,96372,"The therapeutic or diagnostic injection (96372) is included in the evaluation/management service. Under appropriate circumstances, a 25 modifier may be required to identify distinct E/M service."
+377,UNVSL,Humana Medicare,Review insurance settings. Patient is 65 years old or over. Patient may have a Humana Medicare plan.
+378,E&M,"99211, 36415","Per CCI guidelines, 99211 has an unbundle relationship with 36415. Review documentation to determine if a modifier override is appropriate."
+379,MEDSV,"93000, 69209","Per CCI guidelines, 93000 has an unbundle relationship with 69209. Review documentation to determine if a modifier override is appropriate."
+380,E&M,"99211, 96372 Coding Alert",Please verify billing 99211 with 96372.
+381,MEDSV,96372 with allergy injections,"Per CCI guidelines, 96372 has an unbundle relationship with 95115, 95117. Review medical documentation to determine if a modifier override is appropriate."
+382,ICD:CM,Z01.41 Excludes 1,Encounter for routine gynecological examination (Z01.41) and gynecologic examination status-post hysterectomy for malignant condition (Z08) and/or screening cervical pap smear not a part of a routine gynecological examination (Z12.4) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+383,UNVSL,Modifier SA,"Modifier SA should be reported with covered evaluation and management (E/M) services, rendered in collaboration with a physician and billed under the supervising physician’s NPI number, presuming the physician provided direct on-site supervision/direction."
+384,UNVSL,Workers Comp,"Follow guidelines for billing electronic Workers Comp claims with records. If unable to send electronic claim, add to print doc so claim and medical records can be faxed/mailed."
+385,UNVSL,51 Modifier,Medicare and most other payers do not recommend reporting Modifier 51 on your claim - review payer guidelines for reporting this modifier prior to submission.
+386,MEDSV,BCBS - Injections without J codes,Anthem requires that claims for injection services performed in the office setting must include the applicable Healthcare Common Procedure Coding System (HCPCS Level II) for the injected substance. Bill J code with zero fee if patient supplied.
+387,UNVSL,Drugs,Drugs may not be billable for this POS unless provided by clinic - review documentation.
+388,RADIO,Fluoroscopy,Review records for appropriate modifier (26) for fluoroscopy
+389,RADIO,"76942 with 20600, 20604","Ultrasonic guidance should not be reported. See 20604 - Arthrocentesis, aspiration and/or injection, small joint or bursa (eg, fingers, toes), with ultrasound guidance, with permanent recording and reporting"
+390,ORTHO,"76942 with 20605, 20606","Ultrasonic guidance should not be reported. See 20606 - Arthrocentesis, aspiration and/or injection, intermediate joint or bursa (eg, temporomandibular, acromioclavicular, wrist, elbow or ankle, olecranon bursa), with ultrasound guidance, with permanent recording and reporting"
+391,ORTHO,"76942 with 20610, 20611","Ultrasonic guidance should not be reported. See 20611 - Arthrocentesis, aspiration and/or injection, major joint or bursa (eg, shoulder, hip, knee, subacromial bursa), with ultrasound guidance, with permanent recording and reporting"
+393,VAX,Missing administration code,"Missing administration code - 90281-90399 must be reported in addition to the administration codes 96365-96368, 96372, 96374, 96375 as appropriate."
+394,VAX,90461 Add-on,Use 90461 in conjunction with 90460
+395,VAX,90472 Add-on,"Use 90472 in conjunction with 90460, 90471, 90473"
+396,VAX,90474 Add-on,"Use 90474 in conjunction with 90460, 90471, 90473"
+397,VAX,90696 - Age,90696 is approved for children aged 4 through 6 years. Review Coding.
+398,VAX,90700 - Age,90700 - Vaccine is approved for children under the age of 7. Review coding.
+399,VAX,90715 - Age,90715 - Vaccine is approved for patients over the age of 7. Review coding.
+400,VAX,90644 Component billing,90644 (MenCY-Hib) has 2 components. Code each component of a combination vaccine individually.
+401,VAX,90696 Component billing,90696 (DTaP-IPV) has 4 components. Code each component of a combination vaccine individually.
+402,VAX,Medicare Td Vaccine,The tetanus vaccine (Td) is only covered if directly related to the treatment of an injury or direct exposure. Assign injury dx instead of Z23 if applicable.
+403,VAX,90697 Component billing,90697 (DTaP-IPVHib-HepB) has 6 components. Code each component of a combination vaccine individually.
+404,VAX,90698 Component billing,90698 (DTaP -IPV/Hib) has 5 components. Code each component of a combination vaccine individually.
+405,VAX,90700 Component billing,90700 (DTaP) has 3 components. Code each component of a combination vaccine individually.
+406,VAX,90702 Component billing,90702 (DT) has 2 components. Code each component of a combination vaccine individually.
+407,VAX,90707 Component billing,90707 (MMR) has 3 components. Code each component of a combination vaccine individually.
+408,VAX,90710 Component billing,90710 (MMRV) has 4 components. Code each component of a combination vaccine individually.
+409,VAX,90714 Component billing,90714 (Td) has 2 components. Code each component of a combination vaccine individually.
+410,VAX,90715 Component billing,90715 (Tdap) has 3 components. Code each component of a combination vaccine individually.
+411,VAX,90723 Component billing,90723 ((DTaP-Hep B-IPV) has 5 components. Code each component of a combination vaccine individually.
+412,VAX,90748 Component billing,90748 (Hep B-Hib) has 2 components. Code each component of a combination vaccine individually.
+413,VAX,"90460/90471,90473","Do not report 90460, 90471, and/or 90473 together per CPT guidelines"
+414,VAX,90632 - Adult vaccine,"90632 is an adult dosage. Review coding - use 90633 for a two-dose schedule for a pediatric/adolescent dosage, and 90634 for a three-dose schedule for pediatric/adolescent dosage."
+415,VAX,90658,Not covered by Medicare in any payment system and not covered by most advantage plans. Please verify the type of Flu Vaccine given.
+417,VAX,Z23,Code Z23 for the administration of immunizations.
+418,VAX,"90460, 90461 - Age","90460, 90461 should be used only for patients through 18 years of age."
+419,VAX,G0008 - Medicare Influenza Vaccine Administration,The administration code for influenza vaccine for Medicare and most Medicare Advantage plans is G0008.
+420,VAX,G0009 - Medicare Pneumococcal Vaccine Administration,The administration code for pneumococcal vaccine for Medicare and most Medicare Advantage plans is G0009.
+421,VAX,G0010 - Medicare Hepatitis B Vaccine Administration,The administration code for Hepatitis B vaccine for Medicare and most Medicare Advantage plans is G0010.
+422,VAX,Missing administration code,"Missing vaccine administration code - The vaccine/toxoid product codes 90476-90756, 9913* must be used in addition to an immunization administration code(s) 90460-90474, 90480, G0008, G0009, G0010"
+423,VAX,Missing vaccine code,"Missing vaccine code - The vaccine/toxoid product codes 90476-90756, 913* must be used in addition to an immunization administration code(s) 90460-90474, 90480, G0008, G0009, G0010"
+424,MCD:WA,Hospital services - RHC,Hospital based services are not encounter-eligible. Covered services will be paid as fee-for-service and should not be billed with a T1015 encounter code.
+425,MCD:WA,Hearing exams - RHC,Hearing exams should be bundled with a RHC encounter.
+426,MCD:WA,"Diagnostic tests, such as x-rays and EKGs","Diagnostic tests, such as x-rays and EKGs should be billed with technical and professional components."
+427,MCD:WA,X-rays - RHC,X-rays should be billed with technical and professional components. Professional components (-26) should be bundled with RHC encounter. Technical components (-TC) are separately reimbursable.
+428,MCD:WA,"Diagnostic tests, EKGs - RHC",EKGs should be billed with technical and professional components. Split claim for the technical (93005) and professional component (93010).
+429,MCD:WA,"Diagnostic tests, EKGs - RHC",Professional components of EKGs should be bundled with a RHC encounter.
+430,MCD:WA,Labs RHC,"Clinical diagnostic laboratory services, including laboratory tests required for RHC certification are separately reimbursable."
+431,MCD:WA,Venipuncture/Blood Draws RHC,Venipuncture/Blood Draws are bundled with RHC encounters.
+432,MCD:WA,RHC - Administration fees for drugs and vaccines given in the provider’s office,Administration fees for drugs and vaccines given in the provider’s office are bundled with RHC encounters.
+433,MCD:WA,Collaborative Care,Collaborative Care (G0512) is bundled with a RHC encounter.
+434,MCD:WA,Vaccine Admin - Children/Non-Facility,DO NOT bill procedure codes 90471-90472 or 90460-90461 for the administration of vaccines for children.
+435,MCD:WA,G codes in the defined range,"G codes in the defined range (G0008-G9140) are bundled with a RHC encounter. (Exception: G0101 is encounter eligible effective January 1, 2018.)"
+436,MCD:WA,Children Vaccines - Nonfacility,"Bill for the administration by reporting the procedure code for the vaccine given with modifier SL (e.g. 90707 SL). The agency pays for the administration for those vaccines that are free from DOH and are billed with modifier SL (e.g., 90707 SL)."
+437,MCD:WA,J codes - RHC,All J Codes should be bundled with an encounter.
+438,MCD:WA,IUD Supply Codes - RHC,IUD Supply Codes are separately reimbursable as fee-for-service - do not bundle with encounter.
+439,MCD:WA,Durable medical equipment (rented or purchased) - RHC,Durable medical equipment (rented or purchased) is separately reimbursable as fee-for-service - do not bundle with encounter.
+440,MCD:WA,Primary claim type - RHC,Primary WA Medicaid is billed on 1500 claim form.
+441,MCD:WA,Medicare/Medicaid crossover - RHC,Medicare/Medicaid crossover claims are billed on UB-04.
+442,MCD:WA,T1015,RHC encounters are billed with T1015-$0.00 and CPT codes with fees attached.
+443,MCD:WA,Family planning services - RHC,Family planning services should be bundled with a RHC encounter.
+444,UNVSL,Lidocaine,Lidocaine (J2001) is inclusive and should not be billed separately. This code is only billed when given via IV for cardiac arrythmias.
+445,INTEG,Treatment of Lesions: Injection,"Treatment of Lesions: Injection code is present without drug (J code). Review chart for drug used, if applicable. Add drug if clinic supplied."
+446,INTEG,17003 primary px,17003 is missing the primary procedure code. Report 17000 for the first lesion AND 17003 for the 2nd-14th lesions. Change units for 17003 based on additional number of lesions treated.
+447,MCD:AL,NA,"Providers who send specimens to independent laboratories for analysis may bill a collection fee. Providers should use procedure code 36415-90 for routine venipuncture collection, 36416-90 for collection of capillary blood specimen (e.g., finger, heel, ear stick) and Q0091-90 for collection of Pap smear specimen."
+448,ICD:CM,Z01.41 Excludes 1,Encounter for routine gynecological examination (Z01.41) and gynecologic examination status-post hysterectomy for malignant condition (Z08) and/or screening cervical pap smear not a part of a routine gynecological examination (Z12.4) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+449,UNVSL,G0506 Add-on code,G0506 is missing the primary procedure code.
+451,ASC,Claims Type - ASC,Ambulatory surgical center claims are filed to Medicare on a 1500 claim form.
+452,ASC,Modifier 26,The professional component should not be reported on an ASC claim. Review 26 modifier. TC should be reported instead for the Technical Component if applicable.
+453,ASC,Claims Type - ASC,Ambulatory surgical center claims are filed to commercial payers on an UB-04.
+454,VAX,Flu vaccine,"Flu vaccine product is approved for patients aged 65 years and older, verify coding."
+455,MCD:AL,EP modifiers,"EP modifiers are used when billing initial, periodic and interperiodic screenings. EP modifier should also be assigned to hearing and vision screenings."
+456,ICD:CM,K21 Gastro-esophageal disease excludes 1 note,Use P78.83 for reflux in patients 28 days old or less
+457,ICD:CM,R17 Excludes 1 notes,"See P55-P55.9, P57-P59.9 for Jaundice in patients 28 days old or less"
+458,E&M,"99460,99462,99463 Improper place of service","99460, 99462, 99463 should be billed with POS 21, 22 or 25. Review place of service versus CPT code(s)."
+459,ICD:CM,R11-R11.2 excludes 1 note,See P92.01-P92.09 for vomiting in patients 28 days old or less
+460,TELE,Modifier 95,Modifier 95 may only be appended to the services listed in Appendix P. Review usage of modifier 95. Some payers may have different policies.
+461,TELE,Q3014,POS code 02 and 10 does not apply to originating site facilities billing a facility fee with code Q3014. Review place of service code and payer guidelines.
+462,TELE,BCBS Washington,"Washington BCBS telehealth visit should be billed with POS 02 or 10. Append appropriate modifier: 95, 93, GT, GQ, FQ"
+463,UNVSL,Code check - Modifier,Improper or invalid modifier is present - review for proper modifier usage.
+464,UNVSL,Code check - Age Alert,Code(s) used is not appropriate for the age of the patient - review coding.
+465,UNVSL,Code Check - Gender Alert,Gender alert is present. Review coding versus gender of the patient.
+469,UNVSL,Code Check - Expired dx,Review coding for expired DX.
+470,UNVSL,Code Check - Expired CPT,Review coding for expired CPT.
+472,TELE,SC Medicaid Telehealth,Use modifier GT for telehealth visits.
+474,TELE,NA,Modifier GT must be appended to the CPT or HCPCS code to indicate that a service has been provided via interactive audio-visual communication. This modifier is not appropriate for services performed telephonically or through email or patient portal.
+475,VAX,Covid-19: NC Medicaid Telehealth,COVID-19 #34: Telehealth Provisions - Modifier CR (catastrophe/disaster related) must be appended to all claims for CPT and HCPCS codes listed in this policy to relax frequency limitations defined in code definitions.
+476,ICD:CM,R50.81 Fever presenting with conditions classified elsewhere,"R50.81 cannot be billed as primary dx. Code first underlying condition when associated fever is present, such as with: leukemia (C91-C95), neutropenia (D70.-), or sickle-cell disease (D57.-)."
+477,TELE,BCBS NC Telehealth,"Use of Modifier GT (Interactive audio/video telecommunications systems), Modifier 95 (Synchronous real-time audio/video), Modifier 93 (Synchronous real-time audio only) or Modifier FQ (Audio-only communication technology) with POS 02 or 10."
+478,VAX,BCBS NC Telehealth,"To report audio/telephone only visits, append modifier 93 or FQ with place of service 02 or 10."
+480,VAX,COVID-19: BCBS NC Telehealth,"For Online digital evaluation and management encounters for ESTABLISHED patients, report CPT® 99421-99423 with POS 02 or 10."
+481,TELE,Aetna Commercial Telehealth,"When a provider reports modifier GT or 95, it certifies the patient received services via an audiovisual telecommunications system."
+482,TELE,Aetna Telehealth,"Modifier GT, 95 is not required to identify telehealth specific codes."
+483,TELE,BCBS Oregon Telehealth,"Use POS 02 or 10 and modifier GT for audio and video visits.Claims for audio-only telehealth services must have modifier FQ appended, in addition to modifier GT."
+484,TELE,Telehealth Radiology,Telehealth Radiology interpretations. Claims should be billed with modifier 26.
+487,VAX,Florida Blue COVID-19 Telehealth,Telehealth needs to be billed with a GT or 95 modifier with POS 10 or 02.
+488,TELE,Virtual Check-in/Online Visit -,"Review payer guidelines: 99421-3, G2010, G2012 should be reported with the office POS code for virtual check-in/online visit unless otherwise stated by payer."
+489,TELE,9944* place of service -,Review payer guidelines: 99441-3 may need to be reported with POS 02 or 10 for telephone evaluation and management services unless otherwise stated by payer.
+490,TELE,NA,"Bill telehealth services to Sunshine Health without the use of modifiers GT, 95, 93, CR with POS 02"
+491,VAX,FL Medicaid COVID19 -,Store-and-Forward & Remote Patient Monitoring require modifier CR.
+492,VAX,FL Medicaid -,Telephone Communications for New Patients require modifier CG in the first modifier position.
+493,VAX,Medicare Telehealth POS -,"Use the place of service where the provider would normally have performed the visit if the patient had been seen face-to-face (e.g. 11 or 22), NOT POS 02 or 10 for all CMS telehealth and telephone services."
+494,VAX,Medicare Telehealth Modifier -,Append modifier 95 (Real-Time Interactive Audio and Video) or 93 (Audio only) for all telehealth services on Medicare claims. .
+495,VAX,NA,BCBS AL Codes should be billed with Place of Service Code 10 or 02 – Telehealth. No telehealth modifier is required at this time.
+496,VAX,NA,BCBS AL Codes should be billed with Place of Service Code 10 or 02 – Telehealth. No telehealth modifier is required at this time.
+498,VAX,NA,"For Regenece BCBS - Telehealth should be billed with POS 02 or 10, as appropriate and modifier GT. If audio-only, also assign FQ modifier in addition to GT."
+499,UNVSL,Zurich Workers Comp,"Follow Workers Comp billing guidelines for electronic claims attachments. If unsuccessful, claims can be faxed to 874-240-8172."
+500,UNVSL,Summit Fax,Follow Workers Comp billing guidelines for electronic claims attachments.To submit bills via fax: 863-667-1871
+501,UNVSL,Liberty Mutual fax/portal,"For WC claims: Follow Workers Comp billing guidelines for electronic claims attachments. If unsuccessful, Fax claims to 888-925-8391 Attn: Bill Review or use the portal at https://www.libertymutualprovidersupport.com"
+502,UNVSL,Great American Insurance,Follow Workers Comp billing guidelines for electronic claims attachments. Claims can be faxed to 855-277-6359.
+503,VAX,COVID19 Self-pay,"On March 22, 2022 at 11:59 pm ET, the HRSA COVID-19 Uninsured Program will stop accepting claims for testing and treatment due to lack of sufficient funds. On April 5, 2022 at 11:59 pm ET, the HRSA COVID-19 Uninsured Program will also stop accepting vaccination claims due to a lack of sufficient funds. For more information, please see the HRSA website."
+504,VAX,Medicare CS,Append modifier CS for specified COVID-19 testing-related services that result in an order for or administration of a COVID-19 test on applicable claim lines to identify the service as subject to the cost-sharing wavier for COVID-19 testing-related services.
+505,RHC,NA,"Use G0071 to receive payment for the new online digital evaluation and management (CPT codes 99421, 99422, and 99423) or virtual communication services (HCPCS codes G2012 and G2010). Do not use CG modifier."
+506,FQHC,NA,Use G0071 for virtual communication services (HCPCS codes G2012 and G2010). Do not use CG modifier.
+507,SURG,GYN,"58559 is inclusive to 58558 unless severe adhesions substantially increase operative time, additional reimbursement may be warranted."
+508,SURG,GYN,"58558 is not recommended for separate reimbursement when submitted with 58560. When similar or identical procedures are performed, but are qualified by an increased level of complexity, only the definitive, or most comprehensive, service performed should be reported. This logic is supported by the CMS guideline for More Extensive Procedure found in the National Correct Coding Policy Manual for Part B Medicare Carriers, Chapter I that states, ... the less complex service is included in the more complex service and is not separately reportable."
+509,SURG,GYN,"58559 is inclusive to 58560. If during the performance of a surgical hysteroscopy with resection of an intrauterine septum, it is deemed medically necessary or advantageous to remove intrauterine adhesions, then the lysis of adhesions is considered an integral component to the successful completion of the primary procedure and does not warrant separate reimbursement Therefore, procedure 58559 is not recommended for separate reimbursement when submitted with procedure 58560."
+510,SURG,Modifier 73 and 74,Modifier 73 and 74 are for facility billing only. Physician reporting of a discontinued procedure should be billed with a 53 modifier.
+511,LABS,80047 Basic Metabolic panel,"80047 Basic metabolic panel (Calcium, ionized) may be reported rather than individual CPTs. This panel must include the following: Calcium, ionized (82330) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565). Review payer guidelines."
+512,LABS,80048 Basic Metabolic Panel,"80048 Basic metabolic panel (Calcium, total) may be reported rather than individual CPTs. This panel must include the following: Calcium, total (82310) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565). Review payer guidelines."
+513,LABS,80051 Electrolyte panel,80051 Electrolyte panel may be reported rather than individual CPTs. This panel must include the following: Carbon dioxide (bicarbonate) (82374) Chloride (82435) Potassium (84132) Sodium (84295). Review payer guidelines.
+514,LABS,80053 Comprehensive metabolic panel,"80053 Comprehensive metabolic panel may be reported rather than individual CPTs. This panel must include the following: Albumin (82040) Bilirubin, total (82247) Calcium, total (82310) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565) Glucose (82947) Phosphatase, alkaline (84075) Potassium (84132) Protein, total (84155) Sodium (84295) Transferase, alanine amino (ALT) (SGPT) (84460) Transferase, aspartate amino (AST) (SGOT) (84450) Urea nitrogen (BUN) (84520). Review payer guidelines."
+515,LABS,80061 Lipid Panel,"80061 Lipid panel may be reported rather than individual CPTs. This panel must include the following: Cholesterol, serum, total (82465) Lipoprotein, direct measurement, high density cholesterol (HDL cholesterol) (83718) Triglycerides (84478). Review payer guidelines."
+516,LABS,80069 Renal function panel,"80069 Renal function panel may be reported rather than individual CPTs. This panel must include the following: Albumin (82040) Calcium, total (82310) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565) Glucose (82947) Phosphorus inorganic (phosphate) (84100) Potassium (84132) Sodium (84295) Urea nitrogen (BUN) (84520). Review payer guidelines."
+517,LABS,80074 Acute hepatitis panel,"80074 Acute hepatitis panel may be reported rather than individual CPTs. This panel must include the following: Hepatitis A antibody (HAAb), IgM antibody (86709) Hepatitis B core antibody (HBcAb), IgM antibody (86705) Hepatitis B surface antigen (HBsAg) (87340) Hepatitis C antibody (86803). Review payer guidelines."
+518,LABS,80076 Hepatic function panel,"80076 Hepatic function panel may be reported rather than individual CPTs. This panel must include the following: Albumin (82040) Bilirubin, total (82247) Bilirubin, direct (82248) Phosphatase, alkaline (84075) Protein, total (84155) Transferase, alanine amino (ALT) (SGPT) (84460) Transferase, aspartate amino (AST) (SGOT) (84450). Review payer guidelines."
+519,ANES,Anesthesia modifiers,"Edits indicate that HCPCS anesthesia modifiers (e.g., modifiers AA, AD, G8, G9, QK, QS, QX, QY, & QZ) may be appended to anesthesia codes 00100-01999."
+520,ANES,Physical status modifiers,Edits indicate that physical status modifiers P1-P6 may be appended to anesthesia codes 00100-01999 after the pricing modifier.
+521,ICD:CM,"F01-F99 - Chapter 5: Mental, Behavioral and Neurodevelopmental disorders","Review diagnosis versus patients age. F91.3 Oppositional defiant disorder (ODD) is an illness where a child, for at least a six-month period, exhibits frequent loss of his or her temper, refuses or defies compliance with rules, argues with adults, blames others for misbehavior, is angry, spiteful, and/or vindictive."
+522,BCBS:SC,NA,"BlueCross requires the reporting of the NDC, NDC unit of measure and NDC quantity for all outpatient-administered drug claims."
+523,MCD:SC,NA,"Medicaid requires providers billing for physician-administered drugs in an office, a clinic, or other OP setting to report the NDC when using a drug-related HCPCS code."
+524,LABS,"Review diagnosis coding. Codes are listed on the encounter that are never covered by Medicare for a diagnostic lab testing service. If a code from this section is given as the reason for the test, the test may be billed to the Medicare beneficiary without billing Medicare first because the service is not covered by statute, in most instances because it is performed for screening purposes and is not within an exception. The beneficiary, however, does have a right to have the claim submitted to Medicare, upon request.",Review diagnosis code assignments. Codes are listed on the encounter that are never covered by Medicare for a diagnostic lab.
+525,UNVSL,Medicare - Modifier 50,"For services with a bilateral indicator of 3, modifier 50 and a quantity of 2 should be reported."
+526,MEDSV,99001 Medicare,99001 (Handling and/or conveyance of specimen for transfer from the patient in other than an office to a laboratory (distance may be indicated)) is not covered by Medicare in any payment system.
+527,VAX,NA,"Review updated COVID-19 ICD-10-CM reporting guidelines, if applicable. For a confirmed COVID-19 diagnosis, assign code U07.1, COVID-19. If the provider documents suspected, possible, probable, or “inconclusive” COVID19, do not assign code U07.1. Assign a code(s) explaining the reason for encounter (such as fever) or Z20.822, Contact with and (suspected) exposure to COVID-19. For cases where there is a concern about a possible exposure to COVID-19, but this is ruled out after evaluation, assign code Z20.822."
+528,UNVSL,Medcost - group number,Group Number required on claims. Be sure group number is listed in the insurance settings to prevent claim rejections.
+529,RHC,NA,G2025 is billed by Medicare and Medicare CMOs on a UB04.
+530,RHC,NA,Do not use modifier CG with HCPCS code G2025 unless visit was for a covered preventative service.
+531,ICD:CM,J95 Excludes 1,"Intraoperative and postprocedural complications and disorders of respiratory system, not elsewhere classified (J95) and aspiration pneumonia (J69.-), emphysema (subcutaneous) resulting from a procedure (T81.82), hypostatic pneumonia (J18.2), and pulmonary manifestations due to radiation (J70.0-J70.1) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note."
+532,UNVSL,Codes with Bilateral in the Description,A code with bilateral in the description is present. Review use of 50 modifier.
+533,UNVSL,Bilateral procedures,"Review procedures and apply appropriate laterality modifiers (RT, LT, 50)."
+534,UNVSL,Codes with Unilateral or Bilateral in the Description,Codes that do not allow modifier 50 or modifiers LT and RT to be reported for the same date of service are present. Review modifier usage.
+535,RADIO,73565 - laterality modifiers,"73565 describes x-rays in both knees. RT, LT & 50 modifier should not be used on this code."
+536,ICD:CM,R53.8* - Excludes 1 Note,"Other fatigue (R53.8*) with combat exhaustion and fatigue (F43.0), congenital debility (P96.9), exhaustion and fatigue due to excessive exertion (T73.3), exhaustion and fatigue due to exposure (T73.2), exhaustion and fatigue due to heat (T67.-), exhaustion and fatigue due to pregnancy (O26.8-), exhaustion and fatigue due to recurrent depressive episode (F33), and/or exhaustion and fatigue due to senile debility (R54) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note."
+537,UNVSL,Medicaid Primary,"Review insurance settings. When Medicaid is Primary, Secondary Insurance cannot be present. Medicaid is the last payer."
+538,E&M,0-10 Global period - Surgery/Integumentary System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25. Review documentation and payer guidelines to determine if modifier 25 if appropriate."
+539,E&M,90 day global - Surgery/Integumentary System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+540,E&M,0-10 global period - Surgery/Musculoskeletal System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+541,E&M,90 day global - Surgery/Musculoskeletal System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+542,E&M,0-10 global period - Surgery/Respiratory System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+543,E&M,90 day global - Surgery/Respiratory System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+544,E&M,0-10 global period - Surgery/Cardiovascular System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+545,E&M,90 day global - Surgery/Cardiovascular System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+546,E&M,0-10 global period - Surgery/Hemic and Lymphatic Systems,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+547,E&M,90 day global - Surgery/Hemic and Lymphatic Systems,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+548,E&M,0-10 global period - Surgery/Mediastinum and Diaphragm,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+549,E&M,90 day global - Mediastinum and Diaphragm,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+550,E&M,0-10 global period - Surgery/Digestive System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+551,E&M,90 day global - Digestive System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+552,E&M,0-10 global period - Surgery/Urinary System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+553,E&M,90 day global - Urinary System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+554,E&M,0-10 global period - Surgery/Male Genital System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+555,E&M,90 day global - Male Genital System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+556,E&M,0-10 global period - Surgery/Reproductive System System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+557,E&M,0-10 global period - Surgery/Female Genital System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+558,E&M,90 day global - Female Genital System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+559,E&M,0-10 global period - Surgery/Maternity Care and Delivery,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+560,E&M,90 day global - Maternity Care and Delivery,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+561,E&M,0-10 global period - Surgery/Endrocrine System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+562,E&M,90 day global - Endocrine System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+563,E&M,0-10 global period - Surgery/Nervous System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+564,E&M,90 global period - Surgery/Nervous System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+565,E&M,0-10 global period - Surgery/Auditory System,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+566,E&M,90 global period - Surgery/Auditory System,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+567,E&M,0-10 global period - Medicine Services and Procedures,"E&M services performed on the same date of service as a minor surgical procedure is included in the payment for the minor surgical procedure, and shall not be reported separately as an E&M service. However, a significant and separately identifiable E&M service unrelated to the decision to perform the minor surgical procedure is separately reportable with modifier 25."
+568,E&M,90 day global - Medicine Services and Procedures,"If an E&M is performed on the same date of service as a major surgical procedure for the purpose of deciding whether to perform this surgical procedure, the E&M service is separately reportable with modifier 57. Other preoperative E&M services on the same date of service as a major surgical procedure are included in the global payment for the procedure, and are not separately reportable. Review documentation and payer guidelines to determine if modifier 57 if appropriate."
+569,MCD:ID,Consultations -,"99242– 99245 and 99252-99255), instead the appropriate evaluation and management code for office, other outpatient services, hospital or nursing facility should be billed for the services rendered. As Idaho Medicaid does not use consultation codes, more than one physician will be permitted to bill an initial visit."
+570,MCD:ID,NDC Requirements,"HCPCS drug. This requirement applies to drugs with HCPCS codes, whether submitted electronically, on a paper CMS-1500 claim form, or as a Medicare cross-over claim."
+571,MCD:ID,VFC Vaccines,"The Vaccine for Children (VFC) program offers a free-vaccine program for children who have not reached their 19th birthday. When a free vaccine(s) is administered, the CPT® code for the vaccine should be billed with modifier SL at a zero-dollar amount ($0.00)."
+572,ORTHO,NA,Do not use either 29877 or G0289 to report chondroplasty with meniscectomy 29880 or 29881 because the chondroplasty is inclusive to their definitions.
+573,ORTHO,Medicare NCCI edit,"CPT codes for closed, percutaneous, or open treatment of fractures or dislocations include the application of casts, splints, or strapping. CPT codes for casting/splinting/strapping should not be reported separately per Medicare NCCI edits."
+574,MEDSV,NA,"UnitedHealthcare requires one of the three therapy modifiers − GN, GO, or GP on specific sets of CPT/HCPCS codes in order to identify when each outpatient therapy (OPT) service is furnished under a Speechlanguage pathology (SLP), occupational therapy (OT) and physical therapy (PT) services plan of care."
+575,MEDSV,NA,"“Always Therapy” HCPCS codes require a GN, GO, or GP modifier, as appropriate."
+576,MEDSV,NA,Codes Requiring the “GN” Therapy Modifier are present.
+577,MEDSV,NA,Codes Requiring the “GO” Therapy Modifier are present.
+578,MEDSV,NA,Codes Requiring the “GP” Therapy Modifier are present.
+579,E&M,Modifier 24,Modifier 24 should only be used on E/M codes. Review modifier.
+580,UNVSL,Adult BMI codes,BMI adult codes are for use for persons 20 years of age or older. The CDC classifies BMI differently depending on whether the individual is an adult (age 21 or older) or a child (age 2 to 20). Use pediatric BMI codes for persons 2-19 years of age.
+581,VAX,90732 - Age Restrictions,"90732 reports a pneumococcal polysaccharide vaccine, 23-valent (PPSV23), adult or immunosuppressed patient dosage, for subcutaneous or intramuscular administration to patients 2 years of age or older. Review CPT versus age of patient."
+582,MEDSV,90732 - Age Restrictions,"Per NCCI guidance, placement of peripheral vascular access devices is integral to IV infusion and injections and not separately reportable (e.g., 36000—introduction of needle/catheter into vein), 36410—venipuncture). Review chart documentation to determine if a modifier is appropriate."
+583,PODIA,Toe/Finger modifier required,Code requires appropriate toe or finger modifier.
+584,LABS,Urinalysis Coding,"If a Urinalysis with Microscopic exam is performed, the 81001 CPT code will be used and the 81003 CPT for the normal Urinalysis will not be billed."
+585,MCD:LA,"Effective with date of service March 1, 2008, physicians, physician groups, APRNs, and physician assistant providers are required to submit NDC information and the corresponding HCPCS code for physician-administered drugs on the 837P (Professional transaction) and the CMS-1500 claim form.",Missing NDC info. Medicaid/Medicaid CMOs require this info for all J-codes.
+586,UNVSL,NA,"Add authorization to Triwest/VACCN/OPTUM VA claims prior to billing. Claims reject for missing authorization number. If auth is not entered in Azalea, go to https://www.triwest.com/en/provider/claims-guidelines/ and use the referral search tool."
+587,INTEG,NA,17004 should not be reported with 17000 or 17003. CPT 17004 is for 15 or more lesions and should be billed with 1 unit.
+588,UNVSL,Humana requires a referring provider,Humana may require the ordering/referring provider information. Add referring provider for Humana.
+589,LABS,80050,"80053, 85025, 85004, 85027, 85007, 85009, 84443 is included in 80050 and cannot be billed separately."
+590,LABS,"87502,87631 -",87631 and 87502 cannot be reported together for the same specimen. Review documentation to determine is a modifier is appropriate due to different specimens.
+591,MEDSV,"87502,87631 -",94060 includes the administration of a bronchodilator. It is a misuse of CPT code 94640 to report 94640 for the administration of the bronchodilator included in CPT code 94060. The bronchodilator medication may be reported separately.
+592,MEDSV,"87502,87631 -","CPT code 94640 (Pressurized or non-pressurized inhalation treatment for acute airway obstruction...) and CPT code 94664 (Demonstration and/or evaluation of patient utilization of an aerosol generator...) generally should not be reported for the same patient encounter. The demonstration and/or evaluation described by CPT code 94664 is included in CPT code 94640 if it uses the same device (e.g., aerosol generator) that is used in the performance of CPT code 94640. If performed at separate patient encounters on the same date of service, the two services may be reported separately."
+594,MEDSV,"87502,87631 -",Inhalation drugs may be separately reimbursable. Add drug HCPCS code for drug administered.
+595,MEDSV,NA,96372 may bundle into the administration of the vaccine. Append 59 modifier to 96372 if an injection separate from the vaccine administration was given.
+596,ICD:CM,H60-H95 - Chapter 8: Diseases of the ear and mastoid process,"H60.393 Other infective otitis externa, bilateral should not be billed with Other infective otitis externa, right ear or left ear. Review coding."
+597,ICD:CM,H00-H59 - Chapter 7: Diseases of the eye and adnexa,"A bilateral code should be used instead of left and right eye. See H10.023 Other mucopurulent conjunctivitis, bilateral."
+598,ICD:CM,H60-H95 - Chapter 8: Diseases of the ear and mastoid process,"Review encounter for H66.93 (Otitis media, unspecified, bilateral) instead of reporting left and right individually."
+599,ICD:CM,H60-H95 - Chapter 8: Diseases of the ear and mastoid process,"Review encounter for a more specific diagnosis code (H66.90 Otitis media, unspecified, unspecified ear). Task office for a dx that specifies which ear (RT or LT). See H66.91 (RT), H66.92 (LT), H66.93 (Bilateral)."
+600,VAX,NA,Medicare Part B does not reimburse Shingrix vaccines - 90750
+601,E&M,NA,"99408, 99409 is not covered by Medicare as of 10/01/2020. See G2011, G0396, or G0397 for Alcohol and/or substance (other than tobacco) abuse structured assessment (e.g., audit, dast), and brief intervention."
+602,ICD:CM,M00-M99 - Chapter 13: Diseases of the musculoskeletal system and connective tissue,Spondylolysis (M43.0) with congenital spondylolysis (Q76.2) and/or spondylolisthesis (M43.1-M43.19) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline.
+603,ICD:CM,"O00-O9A - Chapter 15: Pregnancy, childbirth, and the puerperium","O00-O9A - Chapter 15: Pregnancy, childbirth, and the puerperium: Codes from this chapter are for use only on maternal records, never on newborn records."
+604,E&M,(99291-99292) Critical Care Services,"99292 is an add-on code that must be billed in addition to 99291. Code first 99291(Critical care, evaluation and management of the critically ill or critically injured patient, first 30-74 minutes) then 99292 for each additional 30 minutes."
+605,VAX,NA,"A new ICD-10 code was released effective 1/1/21. Z11.52 - Encounter for screening for COVID-19. Review updated COVID-19 ICD-10-CM reporting guidelines, if applicable."
+606,VAX,NA,"A new ICD-10 code was released effective 1/1/21. Z20.822 - Contact with and (suspected) exposure to COVID-19. Review updated COVID-19 ICD-10-CM reporting guidelines, if applicable."
+607,VAX,NA,"Per ICD-10-CM guidelines for J12.82 (pneumonia due to coronavirus disease 2019), code first COVID-19 (U07.1) Review updated COVID-19 ICD-10-CM reporting guidelines, if applicable."
+608,VAX,NA,"A new ICD-10 code was released effective 1/1/21. J12.82 - Pneumonia due to coronavirus disease 2019. Review updated COVID-19 ICD-10-CM reporting guidelines, if applicable."
+609,VAX,NA,"M35.81 guidelines state to code first U07.1 COVID-19. If an individual with a history of COVID-19 develops MIS, assign codes M35.81, Multisystem inflammatory syndrome, andU09.9, Post COVID-19 condition, unspecified."
+610,VAX,NA,"Review payer guidelines to determine if cost sharing modifiers (CS, CR) may be required for COVID-19 purposes."
+612,VAX,NA,Moderna Covid-19 100mcg/0.5mL vaccine is no longer authorized for use in the United States
+613,VAX,NA,"Code the Pfizer-BioNTech Covid-19 Vaccine Administration code (0001A is for the first dose, 0002A is for the second dose, 0003A is for the third dose, 0004A is for a Booster dose). Approved for individuals 12 years of age and older. Vaccine no longer approved for use in the United States."
+614,VAX,NA,"AstraZeneca Covid-19 Vaccine no longer approved in the United States. To report severe acute respiratory syndrome coronavirus 2 [SARS-CoV-2][coronavirus disease {COVID-19}] vaccine product immunization, see 91318, 91319, 91320, 91321, 91322"
+615,VAX,NA,"Vaccines are no longer being purchased by the government. Verify if office purchased vaccine. Per CMS when COVID-19 vaccine doses are provided by the government without charge, only bill for the vaccine administration. Don’t include the vaccine codes on the claim when the vaccines are free. Review individual payer guidelines for complete guidance."
+617,RHC,NA,Medicare will reimburse COVID-19 vaccine and administration based on reasonable cost through the cost report process. Mark the associated codes to hide on the claim and zero out the fees.
+618,FQHC,NA,Report vaccine and administration on claim informationally.
+619,UNVSL,Prolonged Office/Other Outpt E/M for Medicare and most Advantage plans,"G2212 should be reported instead of 99417 for Medicare and most Medicare Advantage plans in addition to 99205, 99215 or 99483 for each additional 15 minutes. Do NOT report G2212 for less than 15 minutes."
+620,VAX,NA,"Do not report 90460, 90461 in conjunction with 913XX (Covid vaccine) unless both a severe acute respiratory syndrome coronavirus 2 [SARS-CoV-2][coronavirus disease {COVID-19}] vaccine/toxoid product and at least one vaccine/toxoid product from 90476-90749 are administered at the same encounter"
+621,AUDIO,Medicare MUE for 69210,Medicare only allows 1 unit per day for 69210
+622,VAX,NA,"During the COVID-19 pandemic, a screening code is generally not appropriate. Do not assign code Z11.52, Encounter for screening for COVID-19. For encounters for COVID-19 testing, including preoperative testing, code as exposure to COVID-19 (Z20.822) (guideline I.C.1.g.1.e)."
+623,ICD:CM,Z20-Z20.9 Chapter 21: Factors Influencing Health Status and Contact With Health Services,"Presence of left artificial knee joint (Z96.652) and Presence of right artificial knee joint (Z96.651) should not be reported together. Use the bilateral code: Presence of artificial knee joint, bilateral (Z96.653)."
+624,ICD:CM,Bilateral code,"Presence of right artificial hip joint (Z96.641) and Presence of left artificial hip joint (Z96.642) should not be reported together. Use the bilateral code: Presence of artificial hip joint, bilateral (Z96.643)."
+625,RADIO,78730 - Urinary bladder residual study (List separately in addition to code for primary procedure),CPT 78730 (Urinary bladder residual study) is an add on code. 78740 (Ureteral reflux study (radiopharmaceutical voiding cystogram)) must be billed in addition to 78730. See 51798 if 78740 is not appropriate.
+626,NEURO,64643 Add-On Code,"64643 is missing the primary procedure. Code first (64642, 64644) for each extremity."
+627,NEURO,64645 Add-On Code,64645 is missing the primary procedure. Code first 64644 for each extremity.
+628,ICD:CM,R51 Excludes 2,"Headache NOS (R51.9) should not be reported with G50.0 (trigeminal neuralgia), G50.1 (atypical facial pain), G43-G44 (migraine and other headache syndromes) except when the two conditions are unrelated per the ICD-10-CM Excludes 2 guideline."
+629,ICD:CM,M12.55 Excludes 1,"Traumatic arthropathy, hip (M12.55) and current injury-see Alphabetic Index, post-traumatic osteoarthritis of first carpometacarpal joint (M18.2-M18.3), post-traumatic osteoarthritis of hip (M16.4-M16.5), post-traumatic osteoarthritis of knee (M17.2-M17.3), post-traumatic osteoarthritis NOS (M19.1-), and post-traumatic osteoarthritis of other single joints (M19.1-) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 guideline."
+630,VAX,CS/CR Modifier,Append modifier CS or CR (when appropriate) for specified COVID-19 testing-related services that result in an order for or administration of a COVID-19 test on applicable claim lines to identify the service as subject to the cost-sharing wavier for COVID-19 testing-related services.
+632,ORTHO,NA,Cast/Splint application is inclusive to fracture/dislocation treatment. Review coding for cast/splint. A modifier may not be appropriate unless casting/splinting is unrelated to the fracture/dislocation treatment code.
+633,VAX,NA,"Code the Janssen Covid-19 Vaccine Administration code (0031A for the first vaccine, 0034A for the Booster). Vaccine is no longer authorized for use in the United States."
+634,ICD:CM,H60-H95 - Chapter 8: Diseases of the ear and mastoid process,"Otitis externa in other diseases classified elsewhere, unspecified ear (H62.40) should be updated to report the correct laterality (H62.41-right, H62.42-left, or H62.43-bilateral)."
+635,MCD:GA,NA,"Effective May 1, 2021, the integration of Peach State Health Plan and WellCare is complete. Do not file claims with a date of service on or after 05/01/2021 to Wellcare (14163). All Wellcare claims should be billed to Peach State Health Plan (Medical - 68069 or Behavioral Health - 68068)."
+636,MCD:AL,NA,Technical components for EKGs and radiology are billable and reimbursable outside of the encounter rate utilizing the non-IRHC National Provider Identifier (NPI) and on a separate claim.
+637,ICD:CM,Z00.8,"Encounter for other general examination (Z00.8) can only be reported as the first listed diagnosis code. Use with caution, some payers may require a more specified diagnosis for the encounter. If this is the only diagnosis listed, ask the provider for a more specific diagnosis code."
+638,ICD:CM,E66 Overweight and obesity,Review ordering of ICD-10 codes. Some payers will not reimburse claims with overweight/obesity as the first listed code.
+639,MCD:ID,NA,80050 is not reimbursed by payer. Unbundle labs and bill individually.
+640,E&M,(99354-99355) Prolonged Services,"Prolonged services (99354-99355) is missing the primary procedure code (99202-99205, 99212-99215)."
+641,MCD:AR,NA,"All claims submitted by RHC providers for EPSDT and ARKids First-B medical screens performed by RHC personnel are to be billed with appropriate modifier(s) on a 1500 claim form with the RHC provider ID. Modifier EP should be assigned along with: Modifier U1 for New pt, Modifier U2 for established pt, Modifier H9 for Foster Care pt."
+642,MCD:AR,NA,"For EPSDT Periodic Complete Medical Screen, use modifier EP. For ARKids Complete Medical Screen, submit claims without a modifier."
+643,MCD:AR,NA,"Use U1 or U2 in the second modifier space for EPSDT Periodic Complete Medical Screen. U1 is for new patients, U2 is for established patients."
+644,MCD:AR,NA,A non-payable diagnosis code is present. Review coding for Arkansas Medicaid.
+645,MCD:AR,NA,A non-payable diagnosis code for beneficiaries under 21 is present. Review coding for Arkansas Medicaid.
+646,RADIO,Professional Component,Review global billing of a radiology diagnostic procedure in a POS other than the physicians office. Professional component modifier (26) may be required.
+647,MCD:WI,NA,"Providers should also indicate modifier UA with the appropriate procedure code if a comprehensive screen results in a referral for further evaluation and treatment. If a comprehensive Health Check screen does not result in a referral for further evaluation or treatment, Providers should only indicate the appropriate procedure code, not the modifier."
+648,MCD:WI,NA,"Providers are required to use modifier “TH” (Obstetrical treatment/services, prenatal or postpartum) with procedure codes 99204 or 99213 only when those codes are used to indicate the first three ante partum care visits."
+649,MCD:WI,NA,"UnitedHealthcare Community Plan follows ACOG coding guidelines and considers an E/M service on the same date of service, by the Same Individual Physician or Other Qualified Health Care Professional to be separately reimbursed in addition to an OB ultrasound procedure (CPT codes 76801-76817 and 76820-76828) only if the E/M service is a separate and distinct service and is submitted with the appropriate modifier."
+650,MCD:WI,NA,Medicaid requires POS 02 or 10 for 99441-99443
+651,VFC:ID,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $20.13 per dose. Serum codes should be reported as $0.00 if present.
+652,VFC:GA,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $21.93 per dose. Serum codes should be reported as $0.00 if present.
+653,VFC:CA,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $19.79 per dose. Serum codes should be reported as $0.00 if present.
+654,VFC:CA,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $19.54 per dose. Serum codes should be reported as $0.00 if present.
+655,VFC:CA,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $21.33 per dose. Serum codes should be reported as $0.00 if present.
+656,VFC:FL,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $24.01 per dose. Serum codes should be reported as $0.00 if present.
+657,VFC:IA,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $19.68 per dose. Serum codes should be reported as $0.00 if present.
+658,VFC:IL,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $23.87 per dose. Serum codes should be reported as $0.00 if present.
+659,VFC:LA,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $21.30 per dose. Serum codes should be reported as $0.00 if present.
+660,VFC:MD,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $23.28 per dose. Serum codes should be reported as $0.00 if present.
+661,VFC:MO,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $21.53 per dose. Serum codes should be reported as $0.00 if present.
+662,VFC:MS,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $19.79 per dose. Serum codes should be reported as $0.00 if present.
+663,VFC:NC,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $20.45 per dose. Serum codes should be reported as $0.00 if present.
+664,VFC:NJ,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $24.23 per dose. Serum codes should be reported as $0.00 if present.
+665,VFC:CO,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $19.58 per dose. Serum codes should be reported as $0.00 if present.
+666,VFC:CO,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $21.96 per dose. Serum codes should be reported as $0.00 if present.
+667,VFC:SC,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $20.16 per dose. Serum codes should be reported as $0.00 if present.
+668,VFC:CT,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $20.00 per dose. Serum codes should be reported as $0.00 if present.
+669,VFC:CT,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $22.06 per dose. Serum codes should be reported as $0.00 if present.
+670,VFC:WA,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $23.44 per dose. Serum codes should be reported as $0.00 if present.
+671,VFC:WI,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $20.83 per dose. Serum codes should be reported as $0.00 if present.
+672,MCD:ID,VFC Vaccines,Pediatric vaccines are billed per vaccine dose. Do not bill vaccine components.
+673,PREVENT,NA,Review documentation to determine if modifier 25 is appropriate to add to the problem-oriented E/M code (992**) when billed with a preventive visit or Medicare Wellness.
+674,MCD:GA,NA,"Code the health risk assessment (96160) with the EP, 59 modifiers when reporting the health risk assessment(s) and vaccine administration codes for the same visit."
+675,UNVSL,"93000,93005,93010 bundles with 69210","Code 93000, 93005, 93010 are a component of code 69210 but a modifier is allowed on 93000, 93005, 93010"
+676,ICD:CM,R42 has an excludes 1 note with H81-H81.93,R42 should not be reported with H81-H81.93 per coding guidelines
+677,ICD:CM,G25.3 has an excludes 1 note with G51.4 and G40-G40.B19,G25.3 should not be reported with G51.4 or G40-G40.B19 per coding guidelines
+678,ICD:CM,R56.1 has an excludes 1 note with G40-G40.B19,R56.1 should not be reported with G40-G40.B19
+679,ICD:CM,B95-B97.89 should NOT be billed as primary dx code per coding guidelines.,B95-B97.89 should NOT be billed as primary dx code per coding guidelines. Code related disorder first.
+680,ICD:CM,M00-M99 - Chapter 13: Diseases of the musculoskeletal system and connective tissue,"M16.11 (Unilateral primary osteoarthritis, right hip) and M16.12 (Unilateral primary osteoarthritis, left hip) should be billed as M16.0 for Bilateral Primary Osteoarthritis of the hip"
+681,ICD:CM,R00-R99 - Chapter 18,"R22.0-R22.9 should NOT be reported with R59-R60.9, E65, R90-R93.9 or M25.4-M25.48"
+682,ICD:CM,G58 Excludes 1,"M79.2 (Neuralgia NOS), M54.1* (Radiculitis NOS) and O26.82* (Peripheral neuritis in pregnancy) should not be billed with G58 (Other mononeuropathies)"
+683,ICD:CM,R00-R99 - Chapter 18,R65.* (SIRS/Severe sepsis) cannot be billed as primary dx. Source of infection should be coded first.
+684,ICD:CM,Manifestation Codes,"A manifestation code is not allowed to be reported as a principal or first-listed diagnosis because it describes a manifestation of some other underlying disease, not the definitive disease. Review ordering of ICD-10 codes."
+685,ICD:CM,Age - 15-123 years,The diagnosis is inconsistent with the patients age. One or more ICD-10 codes are only appropriate for ages 15-123 years.
+686,ICD:CM,Age - Newborn 0 years,The diagnosis is inconsistent with the patients age. One or more ICD-10 codes are only appropriate for newborn patients (28 days and under).
+687,ICD:CM,Age - Pediatric 0-17 years (Physician),The diagnosis is inconsistent with the patients age. One or more ICD-10 codes are only appropriate for pediatric patients (0-17 years old).
+688,VAX,CS Modifier inappropriate for Preventative visits,CS Modifier inappropriate for Preventative visits
+689,UNVSL,Finger/Toe Modifiers,"Review procedures and apply appropriate finger or toe modifiers, if applicable."
+690,VAX,NA,Review CPT versus age of the patient. 90672 is for patients aged 2 through 49 years.
+691,VAX,NA,"Review CPT versus age of the patient. Influenza vaccine (90674, 90756) is for patients aged 4 years and older."
+692,VAX,NA,Review CPT versus age of the patient. 90682 is for patients aged 18 years and older.
+693,VAX,NA,Review CPT versus age of the patient. Influenza vaccine is for patients aged 6 through 35 months.
+694,VAX,NA,Review CPT versus age of the patient. 90688 is for patients aged 3 years and older.
+695,ICD:CM,Age - Pregnancy,Review the ICD-10 coding versus the age of the patient. Supervision of young primigravida and multigravida is the supervision of pregnancy for a female less than 16 years old at expected date of delivery.
+696,ICD:CM,Z Code as Primary Diagnosis,Review ordering of ICD-10 code(s). A Z code is present that may only be billed as the primary diagnosis.
+697,ICD:CM,G56.1 - Other lesions of median nerve,"For bilateral other lesions of median nerve, use G56.13 rather than right and left diagnosis codes."
+698,VAX,G56.1 - Other lesions of median nerve,"Caution: Review ICD-10 coding. If the encounter is due to COVID-19, do not code B97.21 (SARS-associated coronavirus as the cause of diseases classified elsewhere). Use U07.1 (COVID-19)."
+699,RHC,NA,"Add both CG, CS modifiers to waive cost sharing for preventive services performed via telehealth."
+700,VAX,NA,"HCPCS codes (G2023, G2024) for COVID-19 specimen collection are for use by independent laboratories, not medical practices."
+702,RHC,Technical/Professional - Independent RHC,Technical components are billed to Medicare Part B on a 1500 claim form with modifier TC and place of service 72. The professional component should be billed with a qualifying visit with modifier 26.
+703,RHC,Technical/Professional - Independent RHC,Technical components are billed to Medicare Part B on a 1500 claim form with modifier TC. The professional component should be billed with a qualifying visit with modifier 26.
+704,UNVSL,Physician billing - Professional/Technical Component,Review physician billing of a global code outside of an office setting. The professional component may need to be billed with modifier 26.
+705,ICD:CM,Z34 Encounter for supervision of normal pregnancy,"Encounter for supervision of normal pregnancy (Z34) should not be reported with any complication of pregnancy (O00-O9A), encounter for pregnancy test (Z32.0-), or encounter for supervision of high risk pregnancy (O09.-)."
+706,ICD:CM,Z3A Weeks of Gestation,"Weeks of gestation (Z3A): Code first complications of pregnancy, childbirth and the puerperium (O09-O9A). Z3A is not a valid primary dx."
+707,ICD:CM,Age - Pregnancy,Review the ICD-10 coding versus the age of the patient. Supervision of elderly primigravida and multigravida is the supervision of pregnancy for a female 35 years and older at expected date of delivery.
+708,ICD:CM,Age - Pregnancy,Review the ICD-10 coding versus the age of the patient. Supervision of pregnancy for a female 35 years and older at expected date of delivery is considered high risk. Z34 may not be appropriate.
+709,ICD:CM,Age - Pregnancy,Review the ICD-10 coding versus the age of the patient. Supervision of pregnancy for a female less than 16 years old at expected date of delivery is considered high risk. Z34 may not be appropriate.
+710,OBGYN,Global visits,"Review payer guidelines for antepartum care. Depending on the total number of patient encounters, most payers require global obstetric codes to be reported. For one to three antepartum care visits, see the appropriate E/M code. 59425 includes four to six visits. 59426 covers seven or more visits."
+711,OBGYN,NA,Add reporting codes for prenatal visits for tracking purposes. 0500F: Initial prenatal care visit or 0502F: Subsequent prenatal care visit.
+712,OBGYN,Complication visits,"Services unrelated to pregnancy but performed by the provider rendering global maternity care should be documented and reported separately with the appropriate inpatient or outpatient Evaluation and Management code, using the condition unrelated to pregnancy as the primary diagnosis code. Z34 should not be pointed to the E&M code, but may be pointed to pregnancy related services performed during the visit. If other services are not reported, remove Z34 from the claim."
+713,OBGYN,0500F,"0500F: Initial prenatal care visit (report at first prenatal encounter with health care professional providing obstetrical care. Report also date of visit and, in a separate field, the date of the last menstrual period [LMP])"
+714,OBGYN,0500F,Add visit information to the RCM OBGYN Prenatal Visit Tracking spreadsheet.
+715,OBGYN,0501F,"0501F: Report also: date of visit and, in a separate field, the date of the last menstrual period [LMP]"
+716,OBGYN,Prenatal reporting,"If reporting 0501F Prenatal flow sheet, it is not necessary to report 0500F Initial prenatal care visit."
+717,OBGYN,0502F,"Subsequent prenatal care visit (0502F) Excludes: patients who are seen for a condition unrelated to pregnancy or prenatal care (eg, an upper respiratory infection, patients seen for consultation only, not for continuing care)"
+718,OBGYN,Medical Visits,"If the patient has a complication or requires additional workup or care, coders should assign the appropriate E/M code (i.e., 99212–99215) to reflect the separately identifiable service. The diagnosis should also reflect the separately identifiable service."
+719,OBGYN,0503F,"Postpartum care visit (0503F) Excludes: patients who are seen for a condition unrelated to routine uncomplicated postpartum care. The visit should be reported separately with the appropriate inpatient or outpatient Evaluation and Management code, using the condition unrelated to routine postpartum care as the primary diagnosis code."
+720,OBGYN,NA,Review United Healthcare payer guidelines. ICD-10-CM diagnosis codes listed identify complications or high risk conditions.
+721,RADIO,Age Restriction,73592 should only be used for patients under 1 year of age. Review for correct CPT.
+722,OBGYN,NA,Review Anthem BCBS Payer Guidelines. Additional office visits are eligible for separate reimbursement for any unrelated condition and when the E/M is reported with a diagnosis code not related to a normal pregnancy diagnosis.
+723,OBGYN,NA,Review Anthem BCBS Payer Guidelines. The Health Plan defines normal pregnancy by one or more ICD-10 codes on the claim. Review guidelines if billing E/M codes outside of global codes. Remove normal supervision codes when billing E/M visits for any unrelated condition and when the E/M is reported with a diagnosis code not related to a normal pregnancy diagnosis.
+724,OBGYN,NA,Review Anthem BCBS Payer Guidelines. Medical problems complicating labor and delivery management may require additional resources and should be identified by utilizing the appropriate CPT codes in the Medicine and Evaluation and Management Services section of the CPT manual in addition to codes for maternity care.
+725,OBGYN,NA,"Most Anthem policies consider all E/M visits with a normal pregnancy, supervision of pregnancy and/or normal delivery dx assigned, to be included in the global obstetric services and not separately payable. Make sure none of these codes are assigned to the E/M or billed as primary. Task office for additional dx if no other codes are on claim. (Supervison of pregnancy/normal pregnancy dx codes are ok to assign to the ultrasound charge, when performed.)"
+726,MCD:GA,NA,Providers must use one of the following ICD-10 diagnosis codes when billing the preventive health visit code: Z00.00 or Z00.01 (Encounter for adult examination).
+727,ICD:CM,Age - Maternity 9-64 years (Physician),The diagnosis is inconsistent with the patients age. One or more maternity ICD-10 codes are only appropriate for ages 9-64 years and should only be on mothers claim.
+728,ICD:CM,L50 Excludes 1,"L50 Urticaria and allergic contact dermatitis (L23-L23.9), angioneurotic edema (T78.3-T78.3XXS), giant urticaria (T78.3-T78.3XXS), hereditary angio-edema (D84.1), Quinckes edema (T78.3-T78.3XXS), serum urticaria (T80.6-T80.69XS), solar urticaria (L56.3), urticaria neonatorum (P83.8), urticaria papulosa (L28.2), and urticaria pigmentosa (D47.01) identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline."
+730,VAX,90471 warning,Review units on 90471. Report 90471 for one vaccine and 90472 for each additional vaccine (single or combination vaccine/toxoid).
+731,VAX,90473 warning,Review units on 90473. Report 90473 for one vaccine and 90474 for each additional vaccine (single or combination vaccine/toxoid).
+732,MCD:SC,NA,"Effective April 1, 2021, the integration of Absolute Total Care and WellCare is complete. Do not file claims with a date of service on or after 04/01/2021 to Wellcare (14163). All Wellcare claims should be billed to Absolute Total Care (68069)."
+733,UNVSL,NA,Update the encounter bill type to self-pay for custom codes billed and paid by the patient.
+734,UNVSL,Missing IV admin,Review for missing IV infusion code 9636X
+735,MCD:MD,NA,Report the appropriate vaccine product CPT code(s) with the SE modifier appended to each code with an established fee.
+736,MCD:MD,NA,Do NOT bill a separate CPT vaccine administration code to Medicaid/Medicaid MCO.
+737,ICD:CM,R19.4 Excludes 1 with K59.0-K59.09 and K59.1,"R19.4 should not be billed with K59.0-K59.09, K59.1"
+738,VAX,NA,"Report codes 90471-90474 for immunization administration of any vaccine that is not accompanied by face-to-face physician or other qualified health care professional counseling the patient and/or family, or for patients over 18 years of age."
+739,VAX,NA,Oral vaccines are reported with 90473-90474.
+740,VAX,NA,Intranasal vaccines are reported with 90473-90474.
+741,INTEG,NA,"Review Coding for Mycotic Nails: Claim should be coded with ICD-10 code B35.1 as a primary code AND L02.611- L02.612, L03.031-L03.032, L03.041-L03.042, M79.671- M79.672, M79.674-M79.675 or R26.2 as a secondary code. Systemic condition modifiers are not necessary for services performed for this indication with these diagnosis codes."
+742,INTEG,NA,Review Coding for Systemic Conditions: Routine procedures are covered only if the patient is under the active care of a doctor of medicine or osteopathy or NPP who documents the condition. This provider must be added as the referring provider. The date the patient was last seen by the referring provider should be billed in the Reserved for Local Use box.
+743,MEDSV,POS reminder,Review CPT versus place of service. 94002-94003 should be billed in an hospital inpatient/outpatient place of service only.
+744,E&M,99202-99215 POS,Review CPT vs place of service. Office or other outpatient visit (99202-99215) should be billed with an outpatient place of service.
+745,MCD:CO,NA,Long-acting reversible contraceptive devices can be billed on the CMS 1500 claim form using the appropriate HCPCS codes for the devices and modifier FP.
+746,MCD:CO,NA,RHCs that submit a UB-04 must have at least one (1) claim line that identifies revenue code 0521 for RHCs. All other lines on the claim should have the revenue code most appropriate for the service. The line item with revenue code 0521 can appear at any line on the claim and with any procedure code.
+747,MCD:CO,NA,RHCs can serve as an originating site allowing a member to connect with a distant provider that is not affiliated with the originating site. The service must be submitted on a 1500 claim form.
+748,MCD:CO,NA,Behavioral health claims should be billed on a UB with revenue code 900. Assign appropriate behavioral health dx.
+749,MCD:CO,NA,A valid national drug code (NDC) number must be included on all claims and encounters for physician-administered drugs.
+750,MCD:CO,NA,Voluntary sterilization is considered a family planning service (requiring the FP modifier with billing). A copy of the CO Medicaid sterilization consent form (MED 178) must be attached to each related claim.
+751,MCD:CO,NA,Rural Health Clinics (RHCs) complete the UB-04 claim form for EPSDT-rendered services.
+752,MCD:CO,NA,A valid national drug code (NDC) number must be included on all claims for vaccine product codes.
+753,MCD:CO,NA,"RHCs may bill an encounter fee even if the only service provided is administering an immunization by a billable provider (MD, PA, NP). Update the revenue code of the administration code to 0521."
+754,MCD:CO,NA,"Claims must be submitted with the accurately completed required documentation identifying the affiliated condition associated with the pregnancy. Use modifier G7 - Termination of pregnancy resulting from rape, incest, or certified by physician as life-threatening on abortion codes."
+755,MCD:CO,NA,"When billing for family planning services, such as for contraception provision or sterilization procedures, always include the family planning (FP) modifier next to the appropriate procedure code on claims."
+756,MCD:CO,NA,"If 3 or fewer antepartum visits are performed or billing outside of the global reimbursement due to unusual circumstances or complications, the appropriate E/M visit code should be billed, with the TH modifier appended to indicate that the visit is pregnancy-related but outside of the OB global billing code."
+757,MCD:CO,NA,"Billing for Multiple Infants: Include modifier 59 in the first position for Baby B. Use the delivery date as the date of service. A second modifier XU is required for NCCI edits when the following code combinations are billed: 59410 with 59409, 59610 with 59612 or 59614 with 59612."
+758,MCD:CO,NA,"NCCI edits do not allow procedure code 59514 to be combined or billed with codes: 59400, 59409 or 59410."
+759,MCD:CO,NA,"If surgical procedures are unilateral (not bilateral) and surgery does not result in sterilization, utilize the appropriate right (RT) or left (LT) modifier with the procedure code on claims. When the unilateral procedure does not lead to complete sterilization, the Med 178 Sterilization Consent Form is not required."
+760,BCBS:GA,NA,Providers who have obtained a CLIA Waiver or Provider Performed Microscopy Procedure accreditation must include the “QW” modifier when any CLIA Waived laboratory service is reported on a CMS-1500 claim form in order for the procedure to be evaluated to determine eligibility for benefit coverage.
+761,MCD:GA,NA,Providers who have obtained a CLIA Waiver or Provider Performed Microscopy Procedure accreditation must include the QW modifier when any CLIA waived laboratory service is reported on a CMS-1500 claim form in order for the procedure to be evaluated to determine eligibility for benefit coverage.
+762,VFC:CO,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $21.68 per dose. Serum codes should be reported as $0.00 if present.
+764,VFC:MI,NA,The maximum fees that providers may charge for the administration of pediatric vaccines to uninsured children under the Vaccines for Children (VFC) program is $23.03 per dose. Serum codes should be reported as $0.00 if present.
+765,VAX,NA,"All organizations and providers participating in the CDC COVID-19 Vaccination Program must administer COVID-19 Vaccine at no out-of-pocket cost to the recipient. Review balance as providers may not seek any reimbursement, including through balance billing, from the vaccine recipient UNLESS vaccine was purchased by office. As of 09/11/2023 the CDC COVID-19 Vaccination Program has been discontinued"
+766,MCD:MI,NA,Providers who bill physician administered drugs (injectable and non-injectable) separately to Medicaid must report the National Drug Code (NDC) and its supplemental information in addition to the corresponding procedure code (CPT or HCPCS) to assist Medicaid in collecting rebates.
+767,MCD:MI,NA,"Therapy services must be reported using the appropriate therapy modifier to distinguish the discipline under which the service is delivered. In addition, when services are habilitative, they must be reported with the appropriate modifier that represents the nature of the therapy. Maintenance therapy visits should also include the MDHHS designated maintenance modifier."
+768,MCD:MI,NA,Immunizations included in the Vaccine For Children (VFC) Program are free to providers so the charge for these vaccines must be reported as $0.00 (zero dollars).
+769,MCD:MI,NA,All clinical lab services billed to Medicaid must have a referring/ordering Medicaid provider name and NPI.
+770,MCD:MI,NA,"If bilateral x-rays are performed on extremities, report on two service lines with modifier RT on one and modifier LT on the other."
+771,MCD:MI,NA,Diagnostic radiology services that are a result of a physician’s order or referral require the submission of the referring/ordering Medicaid provider name and NPI.
+772,MCD:MI,NA,"When billing Medicaid for services rendered, providers performing tests that use waived methodologies must enter the QW modifier with the appropriate Current Procedural Terminology (CPT) code to denote the waived test."
+773,MCD:MI,NA,"For services provided through telepractice, each procedure code must include the modifier GT."
+774,ICD:CM,NA,Encounter for screening for other suspected endocrine disorder (Z13.29) should not be reported with encounter for screening for diabetes mellitus (Z13.1) except when the two conditions are unrelated per the ICD-10-CM Excludes 1 guideline.
+775,MCD:MI,NA,"A preventive medicine E/M visit and another E/M visit on the same date are billed separately if, during the preventive visit, a problem or abnormality is detected which requires additional work which meets the key component requirements of a problemoriented E/M visit. When this occurs, bill the office/outpatient E/M procedure code using modifier 25 and bill the preventive E/M visit without using a modifier. Refer to CPT guidelines for additional information."
+776,GASTRO,NA,"To report screening colonoscopy on a patient not considered high risk for colorectal cancer, use HCPCS code G0121 and diagnosis code Z12.11 (encounter for screening for malignant neoplasm of the colon). To report screening on a Medicare beneficiary at high risk for colorectal cancer, use HCPCS G0105 and the appropriate diagnosis code that necessitates the more frequent screening."
+777,ANES,NA,The Centers for Medicare & Medicaid Services (CMS) does not recognize Qualifying Circumstances for additional payment.
+778,ANES,99100 Add on,99100 - Code first primary anesthesia procedure
+779,ANES,99116 Add on,99116 - Code first primary anesthesia procedure
+780,ANES,99135 Add on,99135 - Code first primary anesthesia procedure
+781,ANES,99140 Add on,99140 - Code first primary anesthesia procedure
+782,ICD:CM,J91.0 cannot be billed as primary,J91.0 cannot be used as primary dx. Code first underlying neoplasm.
+783,ICD:CM,J91.8 cannot be billed as primary,J91.8 cannot be used as primary dx. Code first underlying disease.
+784,ORTHO,Casting supplies,Application of the cast should be billed in addition to casting supplies unless fracture/dislocation treatment was also performed.
+785,ORTHO,Splinting supplies,Application of the splint should be billed in addition to slint supplies unless fracture/dislocation treatment was also performed.
+786,ASC,Facility billing - Professional/Technical Component,Review Global CPT for missing modifier. The technical component should be billed with modifier TC.
+787,ICD:CM,N00-N99 - Chapter 14:Diseases of the genitourinary system,"Absent, scanty and rare menstruation (N91.-) with ovarian dysfunction (E28.-) ​identify conditions that cannot be reported together except when the two conditions are unrelated per the ICD-10-CM Excludes1 note guideline"
+788,E&M,N00-N99 - Chapter 14:Diseases of the genitourinary system,"99234-99236 - Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date. Review coding, admission and discharge codes cannot be billed with 99234-99236."
+789,MEDSV,N00-N99 - Chapter 14:Diseases of the genitourinary system,"90833, 90836, 90838 require one of the following to be coded first: 99202-99255, 99304-99316 or 99341-99350"
+790,MCD:CA,NA,"For bilateral procedures requiring a separate incision performed at the same operative session, providers should bill the first procedure on the first claim line with the appropriate CPT code followed by modifier AG, which indicates that the procedure is the primary surgery. Providers should bill the second procedure on the next billing line with the appropriate CPT code followed by modifier 50, which indicates the procedure was bilateral."
+791,MCD:CA,NA,"Include the PA name, provider number and type of NMP-PA in the Remarks field (Box 80)/Additional Claim Information field (Box 19) of the claim (RESERVED FOR LOCAL USE). Add each individual PAs name, provider number, and type of NMP-PA to alert"
+792,MCD:CA,NA,"Modifier U7 is used to denote services rendered by a PA. If multiple modifiers are used, use modifier 99. In RESERVED FOR LOCAL USE, indicate the multiple modifiers. For example, Line 4: 99 = U7 + 25"
+793,MCD:CA,NA,"Modifer 99 is used when two or more modifiers are necessary to completely delineate a service, the multiple modifiers used must be explained in the RESERVED FOR LOCAL BOX box of the claim. Ex: Line 4: 99 = AG + LT"
+794,ASC,NA,"Review the use of a global modifier in an ASC. The ASC’s “global period” or “postoperative period” is 24 hours from the time the surgery begins. It is not 10 or 90 days as it is for physicians. Some payors may consider the global period to be 48-72 hours for ASCs. When a physician performs a staged procedure in an ASC, it is not necessary for the coder to append modifier -58, unless it occurs during the facilitys global period, which is 24 hours."
+795,ASC,NA,Modifier 53 is for professional physician services and would not apply to ASC procedures. Review modifier 73 and 74 to see which is most appropriate.
+796,UNVSL,NA,"If a treating practitioner applies surgical dressings as part of a professional service that is billed to Medicare, the surgical dressings are considered incident to the professional services of the health care practitioner and are not separately payable. Claims for these dressings must not be submitted. Claims for the professional service, which includes the dressings, must be submitted to the local carrier or intermediary. If dressing changes are sent home with the beneficiary, claims for these dressings may be submitted. In this situation, use the place of service corresponding to the beneficiarys residence, Place of Service Office (POS=11) must not be used."
+797,MCD:CA,NA,CPT codes 97605 thru 97606 (negative pressure wound therapy) are not Medi-Cal benefits. reimbursement for these services is included in the payment for HCPCS code E2402.
+798,BCBS:MI,NA,"For BCN behavioral health services, always include licensure level (level of care) modifier (forexample: AM, HA, HO, AJ, TD, HE, AH)."
+799,LABS,NA,All UHC claims must be submitted with a valid ordering or referring practitioner for clinical laboratories for ordered tests.
+800,RADIO,NA,All Medicare Advantage claims must be submitted with a valid ordering or referring practitioner for imaging centers for ordered imaging procedures.
+801,UNVSL,NA,All UHC claims must be submitted with a valid ordering or referring practitioner. Please add referring provider.
+802,RADIO,Do not bill x-rays with modifier 50. List separate line items with RT/LT modifiers.,Do not bill x-rays with modifier 50. List separate line items with RT/LT modifiers.
+803,ICD:CM,I87.2 has excludes 1 note with I83.1X-I83.2X,I87.2 cannot be billed with I83.1X-I83.2X. Remove I87.2.
+804,MEDSV,POS for Home sleep study,"Place of service for G0398, G0399 and G0400 should be 12 (HOME)"
+805,LABS,80048 is included in 80069,80048 is included in 80069 and cannot be billed using any modifier. The BMP includes all the same labs performed in the renal function panel. Remove 80048.
+806,UNVSL,80048 is included in 80069,Accident date or onset date is required for this payer. Choose Emloyment Related or Auto Accident = Yes. Current type = Injury(Accident). And add the date of injury for Date of Current.
+807,UNVSL,80048 is included in 80069,"Subscriber SSN is required when submitting Workers Compensation claim electronically. If SSN is not available, use 999-99-9999 to bypass edit."
+808,LABS,Screening versus diagnostic PSA,"84153 should be used instead of G0103 when performed for a medical reason (elevated PSA, BPH, hematuria, Prostate cancer, etc). Please correct CPT."
+809,UNVSL,Missing administration code,Review for possible missing drug injection administration code(s).
+810,UNVSL,Missing administration code,Injection code is present without a drug. Review chart for drug used. Add drug if clinic supplied.
+811,PREVENT,Medicare denial if screening dx is assigned first for 96127,Medicare will not reimburse 96127 if Z13.39 or another screening dx is assigned first. Use other dx if applicable.
+812,VAX,NA,"For an encounter for antibody testing that is NOT being performed to confirm a current COVID-19 infection, NOR is a follow-up test after resolution of COVID-19, assign Z01.84, Encounter for antibody response examination."
+814,VAX,NA,"For individuals who previously had COVID-19, without residual symptom(s) or condition(s), and are being seen for follow-up evaluation, and COVID-19 test results are negative, assign codes Z09, Encounter for follow-up examination after completed treatment for conditions other than malignant neoplasm, and Z86.16, Personal history of COVID-19."
+815,VAX,NA,"Also assign code(s) for the specific symptoms or conditions related to the previous COVID-19 infection, if known. Code U09.9 should not be assigned for manifestations of an active (current) COVID-19 infection."
+817,ICD:CM,"R00-R99 - Chapter 18: Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",R63.3 (Feeding difficulties) is an expired code. See R63.30 (Feeding difficulties) or R63.39 (Feeding problem (elderly)(infant).
+818,VAX,NA,Add M0201 for Covid vaccine given at the patients home.
+820,TELE,NA,"Review payer guidelines to determine if a telehealth modifier is appropriate for the CPT. Codes are not on approved telehealth list, but payer may have different guidelines."
+821,E&M,G0425-G0427,"Review CPT vs place of service. Telehealth consultation, emergency department or initial inpatient (G0425-G0427) should be billed with an inpatient, emergency department, or telehealth place of service."
+822,E&M,Emergency Department Visits,Review CPT vs place of service. Emergency department visits should be billed with an emergency department place of service.
+823,ICD:CM,G50-G59 excludes 1,"M79.2, O26.82*, M54.1* should not be billed with G50*-G59*."
+824,GASTRO,Modifier PT/33 with screenings,"Modifier PT/33 should not be used for G0104, G0105, G0106, G0118, G0120, G0121, G0122"
+825,GASTRO,Surgical endoscopy includes diagnostic,A surgical Colonoscopy includes a diagnostic Colonoscopy (45378) and should not be billed separately.
+826,GASTRO,Surgical endoscopy includes diagnostic,A surgical EGD includes a diagnostic EGD (43235) and should not be billed separately.
+827,ICD:CM,NA,"R35.8 requires an additional digit. See R35.81, R35.89."
+828,ICD:CM,NA,"M54.5 requires an additional digit. See M54.50, M54.51, M54.59"
+829,ICD:CM,NA,P09 requires an additional digit
+830,ICD:CM,NA,R05 requires an additional digit
+831,ICD:CM,Coding guidelines,Z20.822 should not be billed with current Covid-19 infection U07.1
+834,MCD:TN,NA,Providers who have obtained a CLIA Waiver or Provider-Performed Microscopy Procedure accreditation must include the QW modifier for CLIA waived laboratory services when reported on a CMS-1500 claim form in order for the procedure to be evaluated to determine eligibility for benefit coverage.
+837,MEDSV,J-code units,Verify units for J-codes
+838,ANES,Age limit guidelines,99100 can only be used for patients over 71 years of age or younger than 1
+839,ANES,NA,"If a screening colonoscopy turns diagnostic (polypectomy, biopsy, etc), add modifier 33 (PT for Medicare) to 00811 to show screening was intended. If only screening performed, see 00812."
+841,MEDSV,95115 with 95117,"95115 and 95117 cannot be billed together. If multiple injections give, only bill 95117."
+842,ICD:CM,Unacceptable primary dx,B97 codes should not be billed as first listed dx. Code first the disease classified elsewhere.
+843,ICD:CM,Z34.* with O*,Z34.* should not be billed with O* dx codes per excludes 1 note.
+844,MCD:GA,Z34.* with O*,Peach State requires POS 99 for 96110 and EP modifier
+845,UNVSL,H60-H95 - Chapter 8: Diseases of the ear and mastoid process,H65.03 should be billed instead of H65.01 and H65.02 when condition is bilateral.
+846,MCD:TX,NA,"Modifier AM (MD), SA (NP/CNS), TD (Registered Nurse), or U7 (PA) must be submitted with the THSteps medical checkups procedure code to indicate the practitioner who performed the unclothed physical examination during the medical checkup."
+847,MCD:TX,NA,Physicians who submit a claim using the physician’s own provider identifier for services provided by anphysician assistant (PA) must submit modifier U7 on each claim detail if the physician does not make a decisionregarding the client’s care or treatment on the same date of service as the billable medical visit
+848,UNVSL,NA,UHC will not reimburse 99000/9907X when billed with an E/M code for the same date of service.
+849,AUDIO,Auditory System,Modifier 50 is not a valid modifier for 69210
+850,VAX,NA,Code the Novavax COVID-19 vaccine admin code 0041A (for the first dose) and 0042A (for the second dose). 0044A (Booster dose - approved for patients 18 years and older).
+851,VAX,NA,Vaccine no longer approved for use in the United States. See 91320 for 30 mcg Pfizer tris-sucrose vaccine.
+852,VAX,NA,Vaccine no longer approved for use in the United States. See 91319 for 10 mcg Pfizer tris-sucrose vaccine.
+853,VAX,NA,Vaccine no longer approved for use in the United States. See 91322 for 50 mcg Moderna vaccine.
+854,VAX,NA,Code the Adult Pfizer TRS-SUCR dose (30 mcg) using code 91305 with 0051A-0054A. Vaccine no longer approved for use in the United States
+858,OBGYN,Maternity Care and Delivery,Z37.* cannot be used as primary dx.
+859,E&M,Mod 25 for E&M and admin code,Modifier 25 may be needed on E/M when billed with vaccine admin code
+860,ICD:CM,I00-I99 - Chapter 9:Diseases of the Circulatory System,"I25.82, I25.83 and I25.84 cannot be billed as primary. Dx for the coronary atherosclerosis (I25.1-I25.119, I25.7-I25.799, I25.81-I25.812) should be coded first."
+861,UNVSL,G0436/G0437,G0436/G0437 are expired CPT codes. See 99406/99407.
+862,RADIO,Intraoperative cholangiography,"Also bill 74300-26, 76301-26 for intraoperative cholangiography when performed."
+863,GASTRO,NA,"If colonoscopy was performed as a screening, add modifier 33"
+864,GASTRO,NA,Add modifier 33 if a screening colonoscopy was perfomed.
+865,GASTRO,NA,"If screening colonoscopy turned into a diagnostic colonoscopy, add modifier PT."
+866,BCBS:TN,NA,Use modifier 33 on Flu vaccines if provider does not participate in VFC program
+867,RADIO,Bilateral code,"If hip x-rays were performed bilaterally, see CPT 73521 (2 views), 73522 (3-4 views)"
+868,ICD:CM,Coding guidelines,J30* (Allergic Rhinitis) with Asthma (J45*) codes to J45.909 or other specified Asthma dx (J45*)
+869,UNVSL,Add on 96361,96361 is an add-on code and cannot be billed without 96360.
+870,UNVSL,E/M with vaccine admin/commercial,"Append modifier 25 to E/M charge, if supported, when immunization administration is also being billed on the same day.."
+871,VAX,NA,"Review billing for COVID-19 specimen collection with 99000/99001- many payers bundle this code. CMS has approved 99211 for specimen collection for new and established patients, check other payors for reimbursement policies."
+873,ICD:CM,Bilateral dx coding guidelines,Use bilateral dx I87.313 instead of I87.311 and I87.312
+874,UNVSL,Modifier order,"Modifier 26 should always go before laterality modifiers (RT, LT, 50)."
+875,UNVSL,Multiple inhalation treatments,Bill 94640 on two lines with modifier 76 on the second charge for repeat treatment
+876,UNVSL,New patient E/M codes,Most payers do not allow 2 NEW patient E/M codes. Verify if 9920X should be changed to 9921X.
+877,UNVSL,"G0008, G0009,G0010","Use 90460 (ages 18 and under) or 90471/90472 instead of G0008, G0009, G0010 if insurance is not Medicare or a Medicare Advantage plan"
+878,UNVSL,NA,UnitedHealthcare Medicare Advantage has established a list of CPT and HCPCS codes along with their appropriate places of service. One or more codes listed on this encounter is inappropriate to bill in POS 11 (Office). **List may be expanded until the end of the PHE changes***
+879,MCD:WA,NA,Use modifier CR on COVID-19 tests
+880,PREVENT,NA,"When documentation supports that a significant, separately identifiable problem-oriented evaluation and management (E/M) service is rendered, the appropriate code for the E/M service may be reported separately. Append modifier 25 to the service code selected to indicate that a separately identifiable E/M service was provided on the same date of service as the counseling service (9940*)."
+881,MCD:WA,NA,Use modifier CR on COVID-19 tests per Coordinated Care.
+882,RHC,Medicare Qualifying Visit NOT present,An RHC qualifying visit is not present - bundle with qualifying visit.
+883,UNVSL,NA,"UnitedHealthcare Individual Exchange considers CPT code 36416 an integral part of an E&M service when performed on the same date of service by the same provider. When CPT code 36416 is submitted with an E&M service, only the E&M service will be considered for reimbursement. No modifier overrides will exempt CPT code 36416 from bundling into an E&M service."
+884,RHC,NA,Railroad (RR) Medicare claims are billed to Medicare Part A following RHC guidelines.
+885,UNVSL,NA,Advanced Practice Providers who do not have an NPI number (or are ineligible to bill directly with an NPI) should report non-surgical services appended with modifier SA when the services are submitted by a supervising physician on behalf of the APP using the physician’s NPI number
+886,MCD:GA,NA,EPSDT info should be completed for all preventative visits.
+887,BCBS:NJ,NA,"An SA modifier should be appended to all codes submitted for non-surgical services rendered by a Physician Assistant (PA), Certified Nurse Midwife (CNM), Clinical Nurse Specialist (CNS), Nurse Practitioner (NP), Advanced Practice Registered Nurse (APRN)"
+888,BCBS:SC,NA,Modifier SA: Nurse Practitioner rendering service in collaboration with a physician
+889,VAX,NA,"The FDA announced that, due to the high frequency of the Omicron variant, this monoclonal antibody product isn’t currently authorized in any U.S region and may not be administered for treatment or post-exposure prevention of COVID-19 under the EUA until further notice by the FDA."
+891,RHC,NA,RHC Claims for Telehealth Services should be billed with G2025. Modifier 95 is optional - not required.
+892,VAX,NA,Review place of service. M0201 is for the additional payment for administering the COVID-19 vaccine to certain Medicare patients in their homes.
+893,VAX,NA,"Review patients age vs CPT. 90657 is Influenza virus vaccine, trivalent (IIV3), split virus, 6–35 months dosage."
+894,DME,NA,"Manual wheelchair bases may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GY, or GZ. Review payer guidelines."
+895,DME,NA,DMERC requires Ordering Provider Name - Add as the referring provider.
+896,DME,NA,"Wheelchair seating may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GY, or GZ. Review payer guidelines."
+897,DME,NA,"Knee orthoses may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, or GZ. Review payer guidelines."
+898,DME,NA,"Therapeutic Shoes for Persons with Diabetes may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GY, or GZ. Review payer guidelines."
+899,DME,NA,"Nebulizers may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GY, or GZ. Review payer guidelines."
+900,DME,NA,"Oral Appliances for Obstructive Sleep Apnea may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, or GZ. Review payer guidelines."
+901,DME,NA,"Orthopedic Footwear may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY or GY. Review payer guidelines."
+902,DME,NA,"Pressure Reducing Support Surfaces may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GY, or GZ. Review payer guidelines."
+903,DME,NA,"Ankle-Foot/Knee-Ankle-Foot Orthosis may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, or GZ. Review payer guidelines."
+904,DME,NA,Ankle-Foot/Knee-Ankle-Foot Orthosis may require the use of LT - Left Side or RT - Right Side modifier.
+905,DME,NA,Orthopedic Footwear may require the use of LT - Left Side or RT - Right Side modifier.
+906,DME,NA,"Automatic External Defibrillators may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. Also, see also modifier EY, GA, GZ, or KF. Review payer guidelines."
+907,DME,NA,"Pressure Reducing Support Surfaces - Group 3 may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, or GZ. Review payer guidelines."
+908,DME,NA,"Positive Airway Pressure (PAP) Devices for the Treatment of Obstructive Sleep Apnea may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GY, or GZ. Review payer guidelines."
+909,DME,NA,"Commodes may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GY, or GZ. Review payer guidelines."
+910,DME,NA,"Power Mobility Devices may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GY, or GZ. Review payer guidelines."
+911,DME,NA,"Walkers may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GY, or GZ. Review payer guidelines."
+912,DME,NA,"Wheelchair Options/Accessories may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. See also modifier EY, GA, GY, GZ, KC, or RB. Review payer guidelines."
+913,DME,NA,"Patient Lifts may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, or GZ. Review payer guidelines."
+914,DME,NA,"Transcutaneous Electrical Nerve Stimulators (TENS) may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, or GZ. Review payer guidelines."
+915,DME,NA,"Hospital Beds And Accessories may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GK, GL, or GZ. Review payer guidelines."
+916,DME,NA,Therapeutic Shoes for Persons with Diabetes may require the use of LT - Left Side or RT - Right Side.
+917,DME,NA,Codes for the rental of oxygen equipment should be billed once per month. Ensure patient has configured encounters at the duration of the rental.
+918,DME,NA,"Oxygen and Oxygen Equipment may require the usage of the N1, N2, N3 or KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GY, or GZ. Review payer guidelines."
+919,DME,NA,"Payment for oxygen contents (stationary and/or portable) may be included in the allowance for stationary equipment (E0424, E0439, E1390, E1391). The appropriate modifier for the prescribed amounts of stationary oxygen should be used (QA, QB, QE, QF, QG, QH, QR)."
+920,DME,NA,"The appropriate modifier for the prescribed amounts of portable oxygen should be used - (codes E0431, E0433, E0434, E1392, or K0738)."
+921,DME,NA,"Negative Pressure Wound Therapy Pumps may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, or GZ. Review payer guidelines."
+922,DME,NA,"A CPT is present that may be a rental item. Review and determine if the product is purchased and use a purchase modifier. If the product is rented, be sure to determine the rental period, create configured encounters, and apply modifier RR."
+923,DME,NA,"Modifiers NU, RR, UE, KM, KN, AU, AV, AW, KE, KF, KL, KC, KU, QB, QF should be listed in the 1st modifier spot."
+924,DME,NA,"A capped rental item is present. If item is a rental and not a purchase, use monthly rental modifiers (KH, KI, KJ, or KR) in addition to modifier RR. Be sure item is listed in the patients configured encounters."
+925,DME,NA,"Review DME product for appropriate purchase/rental modifier (NU, UE, NR, RR)."
+926,DME,NA,"A CPT is present that United Healthcare may consider eligible for purchase or rental. Review and determine if the product is purchased and use a purchase modifier. If the product is rented, be sure to determine the rental period, create configured encounters, and apply modifier RR. For rentals adjust the dates TO and FROM field to represent the calendar month dates of rental."
+927,UNVSL,Corpus Uteri Procedures,"IUD insertion billed without charge for IUD. Was IUD provided by office? If so, charge should be added."
+928,UNVSL,Corpus Uteri Procedures,Charge for IUD billed without charge for insertion (58300)
+929,DME,NA,"Hospital Beds And Accessories may require the usage of the KX modifier to identify that the requirements identified in the medical policy have been met. If requirements were not met, see also modifier EY, GA, GK, GL, or GZ. Review payer guidelines."
+930,VAX,NA,"Humana Medicare requires a provider to submit a charge for a telehealth service with the place of service (POS) code that would have been reported had the service been furnished in person. In addition, Humana requires a provider to report a telehealth or other virtual service with modifier 93, 95 or modifier FQ as applicable, to identify that the service was furnished via telecommunications-based technology."
+931,RHC,RHC/FQHC,"Bill G0511 (CCM, PCM, general BHI) in place of 99490, 99487, 99484, 99491, 99424, 99426. Bill on UB with Rev Code 0521."
+932,RHC,RHC/FQHC,G0511/G0512 should be billed on a UB with Rev code 0521. Do not use CG modifier.
+933,VAX,NA,Vaccine no longer approved for use in the United States. See 91318 for 3 mcg Pfizer vaccine.
+934,VAX,NA,Vaccine no longer approved for use in the United States. See 91318 for 3 mcg Pfizer vaccine.
+935,E&M,NA,Claim will deny reimbursement for E&M services billed with CPT code 99211 appended with modifier 25 when billed alone or with another procedure code on the same date of service.
+936,MCD:SC,90461,VFC vaccines are billed with administration code 90460 only - No components added.
+937,AUDIO,NA,Assign H61.2X to 69209/69210 or other supporting dx for the removal of impacted cerumen.
+938,UNVSL,NA,"Per the UHC Individual Exchange, when 36416 is submitted with 36415, CPT code 36415 is the onlyvenipuncture code considered eligible for reimbursement."
+939,DME,NA,"UnitedHealthcare utilizes the PTP durable medical equipment (DME) edits developed by Medicaid and will not separately reimburse E0562 and A7046. Claim rejections will occur unless under appropriate circumstances, a designated modifier may be allowed to identify distinct services."
+940,UNVSL,NA,"Enter the descripion of the service in the NOC section of the code unlisted code. For unlisted drug codes, include NDC #, dose and route of administration. Some payers may request records."
+941,UNVSL,NA,A unlisted procedure code is present. Add a description of the procedure performed in the NOC section of the CPT.
+942,RADIO,NA,Review coding vs age of the patient. The typical age range for 73092 is 0 to 11 Months.
+943,UNVSL,NA,"HCPCS code J1094 (Injection, dexamethasone acetate, 1 mg) is no longer manufactured and has an MUE value of “0.” Verify if J1100 (Injection, dexamethasone sodium phosphate, 1 mg) was given."
+944,BCBS:GA,NA,BCBS/Anthem requires NDC info on claim
+945,INTEG,NA,"Review Coding for Systemic Conditions: All claims for routine foot care based on the presence of a systemic condition should have a billing indicator of Q7, Q8 or Q9 to be considered for payment. Q7 - One class A findingQ8 - Two class B findingsQ9 - One class B and two class C findings"
+946,MCD:GA,90461,"GA Medicaid and CMOs do not recognize 90461. Bill 90460 x the number of vaccines given. If over 4 vaccines are given, use 90472 for each addition vaccine over 4."
+947,VAX,NA,Vaccine is no longer authorized for use in the United States. See 91322 for 50 mcg Moderna vaccine.
+948,MCD:PA,NA,Review claim format. Rural Health Clinic (RHC) encounters are billed on a CMS-1500 claim form.
+949,MCD:PA,NA,"Review place of service. Rural Health Clinic (RHC) encounters can only be billed with 72 – Rural Health Clinic, 12 – Home, 21 – Inpatient Hospital, or 99 – Other (Community) POS code."
+950,MCD:PA,NA,Add T1015 and bundle services into the total for this code. T1015 should be the primary listed code and all other codes should be billed at $0.00.
+951,MEDSV,NA,The AT modifier is required under Medicare billing to receive reimbursement for CPT codes 98940-98942. AT modifier is used only when chiropractors bill for active/corrective treatment (acute and chronic care). Do not use modifier AT for maintenance therapy.
+952,MEDSV,NA,The initial treatment or the date of exacerbation of the existing condition must be included on a claim for chiropractic services. Add the date in the claims details section field Date of Current and First Date. Also add 454 Initial Treatment to the field First Type.
+953,MEDSV,NA,Modifier 59 should not be appended to 97124/97140 if performed on the same body area as the manipulation services
+954,MEDSV,Highmark BCBS,Moderate to High Complexity E/M codes 99214/99215 are not allowed on same day as CMT 98940-98943 when performed by the same provider.
+955,MEDSV,Highmark BCBS,Moderate to High Complexity E/M codes 99214/99215 are not allowed on same day as 97161-97172 when performed by the same provider.
+956,MCD:GA,GA Medicaid,Only assign the routine visit Z-code to the preventative E/M. Medicaid will deny if any other dx codes are assigned.
+957,ICD:CM,Q03 Excludes 1 note,"Q03 has an excludes 1 note with Q07.0-Q07.03, G91-G91.9, P37.1 and Q05.0-Q05.4. Q03 cannot be billed with any of these other dx codes. Remove Q03."
+958,MCD:TX,NA,"For claims that are submitted with an immunization administration procedure code and a preventive E/M visit, providers may append modifier 25 to the preventive E/M visit procedure code to identify a significant, separately identifiable E/M service that was rendered by the same provider on the same day as the immunization administration. Documentation that supports the provision of a significant, separately identifiable E/M service must be maintained in the client’s medical record and made available to Texas Medicaid upon request."
+959,RHC,NA,Do not report Category II Performance Measure codes on UB-04. Split the reporting codes and bill them on a 1500 claim form.
+960,ORTHO,NA,"If treating a bimalleolar fracture, 27814 should be billed instead of 27769 and 27792 when performed on the same limb."
+961,MEDSV,NA,"Modifiers RT, LT and 50 are not appropriate for J-codes unless payer specific guidelines require their use."
+962,ORTHO,NA,"27792, 27766 AND 27767/27768 should be coded using CPT 27822 (Open treatment of trimalleolar ankle fracture, includes internal fixation, when performed, medial and/or lateral malleolus; without fixation of posterior lip) when treating a trimalleolar fracture without fixation of the posterior malleolus. Separate coding of each individual fracture is not appropriate."
+963,ORTHO,NA,A diagnostic arthroscopy (29870) is always included in a surgical arthroscopy and should not be billed separately.
+964,MCD:GA,NA,CPT 90378 for Synagis should be billed with DX Z29.11 and admin code 96372. Use POS 11. Do Not use EP modifier.
+965,LABS,NA,G0103 should be used instead of 84153 when a PSA is performed as a screening without symptoms or disease present.
+966,MCD:GA,Georgia Medicaid,Assign only dx Z00.XX or Z13.41 (for autism screening) for 96110. Remove all other dx code assignments.
+967,MCD:GA,TCM Georgia Medicaid/Medicaid CMO,TCM not covered by Medicaid/Medicaid CMOs. Verify with provider if office visit E/M should be billed instead.
+968,MCD:GA,Covid vaccines Georgia Medicaid/Medicaid CMO,Do NOT use POS 99 or EP modifier for Covid vaccines and admin codes.
+969,GASTRO,Covid vaccines Georgia Medicaid/Medicaid CMO,"82270 is used for colorectal neoplasm screening and is not normally ordered for children or adults under 45 years of age. If testing was for other reasons besides a neoplasm screening, please see 82272."
+970,TELE,NA,"Per Cigna commercial Virtual Care guidelines, bill telehealth claims with POS 02 and modifier 93, 95, GT or GQ. Do not use POS 10."
+971,ICD:CM,ICD-10-CM Code Section (B37-B37.9),B37.3 requires an additional digit. See B37.31 (Acute) or B37.32 (Chronic).
+972,VAX,ICD-10-CM Code Section (B37-B37.9),"Code the Sanofi Pasteur Covid Booster, 5 mcg admin (0104A). For individuals 18 year and older."
+973,VAX,NA,Vaccine is no longer authorized for use in the United States. See 91321 for 25 mcg Moderna vaccine.
+974,VAX,NA,Vaccine is no longer authorized for use in the United States. See 91320 for 30 mcg Pfizer vaccine.
+975,VAX,NA,No longer approved for use in the United States as of 9/11/2023. Code will be deleted 11/1/2023. Please verify vaccine given.
+976,VAX,NA,No longer approved for use in the United States.See 91321 for Moderna 25 mcg vaccine. Code will be deleted 11/1/2023.
+977,VAX,NA,Vaccine is no longer authorized for use in the United States. See 91319 for 10 mcg Pfizer vaccine.
+978,UNVSL,NA,"Report 96375 (for each IVP of a different drug) instead of 96374 with 96360 when IV hydration is the primary service. Do not report 96374 with 96360 unless the IVP was given using a separate IV line. If two different IV sites, report 96374 with modifier 59."
+979,UNVSL,NA,"Report 96375 (for each IVP of a different drug) with 96365 when IV infusion, for therapy, prophylaxis, or diagnosis is the primary service. Do not report 96374 with 96365 unless the IVP was given using a separate IV line. If two different IV sites, report 96374 with modifier 59."
+980,UNVSL,NA,Report 96374 for the first IVP and 96375 for each additional IVP of a different drug when not also billing for infusions during the same encounter.
+981,BCBS:TX,NA,"Procedure code 96127 is only reimbursable at the preventive level when billed with a diagnosis of Z00.129, Z13.31, Z13.32, Z13.39, Z13.41, or Z13.42. If not preventative, assign corresponding medical dx."
+982,ORTHO,NA,"Effective November 1, 2022, Aetna® will no longer consider 20985 or 0054T for separate reimbursement. The use of computer-assisted surgical navigation is consideredintegral to the performance of the procedure."
+983,PREVENT,NA,"Medicare only allows a preventative/routine dx for G0402, G0438 and G0439 and some Medicare allowed screening tests. Do not assign Z00.XX, Z1X, Z01.411, Z01.419, Z02.89 to any other CPT codes and do not bill as a primary dx or claim may deny as routine."
+984,E&M,NA,99218-99220 are expired codes. See CPT 99221-99223.
+985,E&M,NA,99217 is an expired code. See CPT 99238-99239.
+986,E&M,NA,99224-99226 are expired codes. See CPT 99231-99233.
+987,E&M,NA,99241 is an expired code. See CPT 99242.
+988,E&M,NA,99251 is an expired code. See CPT 99252.
+989,E&M,NA,99324-99328 are expired codes. See CPT 99341-99345.
+990,E&M,NA,99318 is an expired code. See CPT 99307-99310.
+991,E&M,NA,"99339/99340 are expired codes. See CPT 99437, 99491, 99424, 99425."
+992,E&M,NA,99343 is an expired code. See CPT 99341-99345.
+993,E&M,NA,99354/99355 are expired codes. See CPT 99417
+994,E&M,Prolonged Inpt/Outpt,99356/99357 are expired codes. See CPT 99418.
+995,MCD:LA,T1015,Use T1015 as the first listed CPT code with CPT codes listed as informational codes.
+996,MCD:LA,POS/claim type,RHC office claims are billed with POS 72 on 1500 claim form.
+997,MCD:LA,T1015-EP,"T1015-EP should be billed as the first listed CPT for all EPSDT preventative visits, screenings and vaccines. Keep all CPTs on claim. Bill on a HCFA/1500."
+998,MCD:LA,NA,Long-acting reversible contraceptive devices will be reimbursed in addition to the T-code. Report both the insertion CPT and the J-code (if supplied by office)
+999,E&M,NA,99334-99337 are expired codes. See 99347-99350.
+1000,GASTRO,NA,49560 is an expired code. See CPT 49591-49618.
+1001,GASTRO,NA,"49568 (implantation of mesh or other prosthesis) is an expired code. To report, use appropriate CPT that includes the mesh placement. See 49591-49596, 49600, 49605, 49606, 49610-49611, [49613, 49614, 49615, 49616, 49617, 49618]"
+1002,BCBS:MS,NDC requirement,"BCBS of MS requires NDC information for 96372. CPT 96372 will need to be listed separately with the appropriate NDC added for each admin. If multiple meds given in 1 injection, list additional NDC numbers in the NOC section."
+1003,GASTRO,K30 Excludes 1,"F45.8, R10.13, R12.13 should not be billed with K30 per Excludes 1 guidelines. K30 should be the only dx billed."
+1004,AUDIO,NA,"An E&M service on the same day as removal of impacted cerumen may not be billed unless it represents a significant, separately identifiable service on the same day. Per CMS guidelines, if visit was for the impacted cerumen only, E/M should not be billed in addition to 69209/69210."
+1005,BCBS:TN,Gestational age required,Payer requires ICD-10 code for Gestational age (Z3A) on claim. Not a valid primary dx.
+1006,MCD:CA,80050 Medi-Cal,The General Health Panel (80050) is not a Medi-Cal benefit. Bill components of the panel individually.
+1007,UNVSL,Prolonged Inpt/Outpt E/M Medicare,"Report G0316 to Medicare instead of 99418. List separately in addition to CPT codes 99223, 99233, and 99236 for each additional 15 minutes. Do NOT report G0316 for less than 15 minutes."
+1008,UNVSL,99418,"99418 should be billed with 99223, 99233, 99236, 99255, 99306, 99310"
+1009,UNVSL,99417,"99417 should be billed with 99205, 99215, 99245, 99345, 99350, 99483"
+1010,ICD:CM,Unspecified Site/lLaterality DX,Please review unspecified site/laterality dx code. Most payers will deny claims if one of these dx codes are present on the claim and/or assigned to a CPT code.
+1011,ICD:CM,Unspecified Site/lLaterality DX,Please review unspecified site/laterality dx code. Most payers will deny claims if one of these dx codes are present on the claim and/or assigned to a CPT code.
+1012,TELE,Medicare Mod 93,CPT is not on Medicares approved list of Audio Only codes
+1013,UNVSL,Prolonged Nursing Facility E/M Medicare,"Report G0317 to Medicare instead of 99418. List separately in addition to CPT codes 99306, 99310 for each additional 15 minutes. Do NOT report G0317 for less than 15 minutes."
+1014,UNVSL,Prolonged Home or Residence E/M Medicare,"Report G0318 to Medicare instead of 99417. List separately in addition to CPT codes 99345, 99350 for each additional 15 minutes. Do NOT report G0318 for less than 15 minutes."
+1015,VAX,NA,"Code the Moderna COVID-19 Vaccine, Bivalent vaccine admin (0164A). Approved for patients 6 months - 5 years old."
+1016,MCD:MO,NA,Add AH modifier for Psychologist.
+1017,MCD:MO,NA,"Do not use AH modifier for CPT 97151-91758, 0362T, 0373T."
+1018,RHC,RHC/FQHC,"Bill G0512 (Psychiatric CoCM) in place of 99492, 99493. Bill on UB with Rev Code 0521."
+1019,FQHC,NA,Only 1 New patient visit is allowed. Use G0466 to bill for the medical visit and G0470 to bill for the mental health visit.
+1020,MCD:MO,NA,Add AJ modifier for Licensed Clinical Social Worker/Licensed Master Social Worker
+1021,MCD:MO,NA,Add modifier UD for Licensed Professional Counselor
+1022,MCD:MO,NA,Add modifier HE for Licensed Marital and Family Therapist
+1023,MCD:MO,NA,"Add modifiers HL, AH for Psychology Intern"
+1024,MCD:MO,NA,Add modifier U8 when the place of service is Home.
+1025,MCD:MO,NA,MO Medicaid does not recognize POS 10. Telehealth should be billed with POS 02.
+1026,MCD:MO,NA,TM should be the first modifier listed for services provided at a school location.
+1027,MCD:MO,NA,TM should be the second modifier listed for services provided at a school location.
+1028,MCD:MO,NA,One or more CPT codes listed are not on Missouri Medicaids approved list for Telehealth.
+1029,MCD:KS,NA,Missing covered dx for tobacco cessation counseling.
+1030,MCD:KS,NA,One or more CPT codes listed are not on Kansas Medicaids approved list for Telehealth.
+1031,MCD:KS,NA,Bill POS 10 for Kansas Medicaid Telehealth. Modifier GT is not required.
+1032,ICD:CM,S00-S49.92 Sequela Dx,Sequela Dx (ends in S) should not be listed as the primary dx. Code the condition or nature of the sequela first. The sequela code is sequenced second per ICD-10-CM Official Guidelines for Coding and Reporting.
+1033,ICD:CM,S50.00-S99.929 Sequela Dx,Sequela Dx (ends in S) should not be listed as the primary dx. Code the condition or nature of the sequela first. The sequela code is sequenced second per ICD-10-CM Official Guidelines for Coding and Reporting.
+1034,ICD:CM,T36-T88.9XXS Sequela Dx,Sequela Dx (ends in S) should not be listed as the primary dx. Code the condition or nature of the sequela first. The sequela code is sequenced second per ICD-10-CM Official Guidelines for Coding and Reporting.
+1035,NEURO,Medicare NCCI 2022 Coding Policy Manual – Chap8CPTCodes -60000-69999,"Per CMS, 69990-59 can be billed with 61781/61782 as long as a surgery approved to bill with 69990 is also coded."
+1036,MCD:CA,NA,Use modifier 93 with POS 02 or 10 for audio only telehealth visits. Use Modifier 95 for audio and video visits with POS 02 or 10.
+1037,MCD:GA,In office labs,Lab charge is present that is not on the approved in office lab list.
+1038,TELE,BCBS of SC Teleheatlh,One or more CPT codes listed are not approved by BCBS of SC for Telehealth.
+1039,MCD:TX,Autism Screenings,Autism Screening - Providers should bill code 96110 with modifier U6 for autism screenings.
+1040,VAX,Medicare vaccines,Medicare does not cover one or more of the vaccines listed
+1041,UNVSL,Cigna Mod 25 with office E/M,Cigna requires documentation to be submitted with claim to support the use of modifier 25.
+1042,RHC,Modifier CG,Modifier CG should be added to the office E/M charge or a qualifying behavioral health charge and not the G-code when both are present on the claim.
+1043,RHC,Mod 25/59 on RHC UB,Modifier 25 or 59 should not be used on RHC UB claims unless a separate visit (If an illness or injury that wasn’t present during the first visit requires additional diagnosis or treatment on the same day) occured on the same day. Do not assign modifier CG and 25 or 59 to the same CPT line.
+1044,RHC,NA,Use G0071 for HCPCS codes G2012 and G2010. Do not use CG modifier.
+1045,MCD:AR,99401/99402 RHC,Modifier U9 should be added to 99401/99402 for Family Planning Visits. Assign a family planning dx as primary.
+1046,MCD:AR,99460-99463 Modifiers RHC,"Newborn Care/Screen in Hospital visits should use modifier UA or if EPSDT visit, use EP, UA. Assign delivery dx code."
+1047,MCD:GA,RHC Independent/Freestanding,Bill claims on 1500 with POS 72 - do not bundle
+1048,MCD:GA,RHC Well visit with sick,Office visit billed with CPT 99202 - 99205 and 99211 - 99215 should be billed with Modifiers EP and 25 and place of service 72 (RHC) when performed during the same encounter as a Preventive Health check visit.
+1049,MCD:GA,RHC TB test,86580 is separately Reimbursable with a Health Check encounter visit. Assign modifier EP with dx Z11.1
+1050,MCD:GA,Send out Lead tests,"Lead tests sent to the Georgia Public Health Laboratory should bill 83655 with modifiers EP, 90 on the same claim as 36415/36416 to obtain additional reimbursement. If performed in-house or by a different outside lab, only bill 36415/36416 with Z13.88 assigned."
+1051,MCD:GA,RHC 96110,"Developmental screenings are separately reimbursable at the 9, 18, and 30 months visits when performed during the same encounter as the EPSDT (Health Check) preventive health visit. Bill the developmental screening with CPT 96110 with EP modifier and place of service 72 (RHC)."
+1052,MCD:AL,NA,Use Modifier GT for audio and visual and modifier FQ for audio-only.
+1053,MCD:AL,NA,IUD Supply Codes are separately reimbursable utilizing the non-IRHC National Provider Identifier (NPI) and on a separate claim as fee-for-service - do not bundle with encounter.
+1054,MCD:AL,NA,Add EPSDT info for all preventative visits for patients under 21 years old. The EPSDT Indicator will allow care to be renderedand bypass the visit limits per year.
+1055,MCD:WA,NA,"Any office, laboratory, radiology, immunization, or other procedure rendered as part of follow-up treatment and NOT part of the well-child visit, must be billed on a separate professional claim from the EPSDT well-child checkup."
+1056,MCD:WA,NA,Use POS 02 or 10 with modifier 95 for audio and video telehealth visits. Use modifier 93 or FQ(counseling/therapy) for audio-only visits.
+1057,ICD:CM,R31-R31.9 Excludes 1,Remove R31.* - Excludes 1 note with N30.01/N02*. Codes should not be billed together.
+1058,PREVENT,96160/96161,"Use 96160/96161 in conjunction with 99202-99239, 99241-99255, 99281-99350, 99366, 99374-99412, 99415-99416, 99441, 99442, 99443, 99487-99498."
+1059,UNVSL,99417 Tricare,"G2212 should be reported instead of 99417 for Tricare in addition to 99205, 99215 or 99483 for each additional 15 minutes. Do NOT report G2212 for less than 15 minutes."
+1060,MCD:AR,Arkansas Medicaid sick and prev visit,Split Preventative visit and vaccine/vaccine admins and bill on 1500 claim. Office visit is billed on a UB.
+1061,ANES,PeachState/CareSource/GA Medicaid Physical Status modifiers,"Do not bill physical status modifiers P1-P6 for Medicaid, Peach State and CareSource. Claim will deny."
+1062,ICD:CM,J02 Excludes 1,"J02.9 should not be coded with J10.1, J11.1, J09.X2 per Excludes 1 note."
+1063,BCBS:NC,NA,"Providers not rendering prenatal, delivery, or postpartum care services should follow standard ICD-10-CM guidelines and indicate pregnancy as an incidental SECONDARY diagnosis (Z33.1). Code non-routine pregnancy dx as primary for E/M visits."
+1064,GASTRO,NA,"If a screening colonoscopy is being performed due to a positive stool-based screening (82270, 81528, G0328), assign modifier KX to G0105/G0121"
+1065,NEURO,95907-95913 with 95860-95864,"When a EMG is performed with nerve conduction studies (95907-95913), see 95885-95887 instead of 95860-95864."
+1066,NEURO,NA,Both a nerve conduction velocity study and an electromyogram must be performed involving the nerve(s) being studied on the same date of service in order to be reimbursed for those procedures. Only exception is for Carpal Tunnel Syndrome.
+1067,UNVSL,NA,Cigna will deny 99211-99215 when billed with 96372 and codes J1071 or J3145 when there are no other services billed on the claim.
+1068,BCBS:VA,NA,CLIA waived tests are present - review and add modifier QW to CLIA waived tests.
+1069,UNVSL,NA,"G2212 should be billed in addition to 99205, 99215 or 99483. Valid parent code not on claim."
+1070,UNVSL,99417 UHC -,"G2212 should be reported instead of 99417 for UHC in addition to 99205, 99215 or 99483 for each additional 15 minutes. Do NOT report G2212 for less than 15 minutes."
+1071,UNVSL,H04.53* Newborn Only Dx (0-28 days old),H04.53* is a newborn only dx (0-28 days old) per ICD10 guidelines. See Q10.5 for ages 29 days and older.
+1072,ICD:CM,M54.6 Excludes 1,M54.6 and M51-M51.9 cannot be billed together. Remove M54.6.
+1073,ICD:CM,"E16.1,E16.2 Excludes 1","E16.1 and E16.2 cannot be billed with E08.649, E10.649, E11.649, E13.649. Remove E16*."
+1074,LABS,NA,CLIA waived tests are present - review and add modifier QW to CLIA waived tests. **SELECT ALL UNITED HEALTHCARE/UHC MEDICARE PLANS
+1075,UNVSL,Modifier SA,Modifier SA is required when a supervising physician bills on behalf of a mid-level provider for non-surgical services.
+1076,DME,NA,"Modifier N1, N2 or N3 should be used instead of KX for initial claims for oxygen or new 36-month oxygen rental periods with dates of service on or after April 1, 2023"
+1077,UNVSL,F25 Excludes1,"Mood [affective] disorders with psychotic features (F30.2, F31.2, F31.5, F31.64, F32.3, F33.3) and Schizoaffective disorders) identify conditions that cannot be reported together per the ICD-10-CM Excludes1 note guidelines. Remove F3** dx."
+1078,DME,F25 Excludes1,Charges for bilateral wheelchair options/accessories should be billed as 1 unit of service on separate claim lines with RT and LT as the second modifier. Do not bill as 2 units.
+1079,VAX,NA,Vaccine is no longer approved for use in the United States. Please verify CPT codes.
+1080,VAX,NA,"Janssen COVID-19 Vaccine is no longer available in the U.S. All remaining U.S. government stock of Janssen COVID-19 Vaccine expired May 7, 2023.Please verify CPT codes."
+1081,UNVSL,NA,Covid vaccine missing admin code 90480.
+1082,UNVSL,NA,90480 billed without code for Covid vaccine: 91318-91322
+1083,UNVSL,NA,Bill 90480 for administration of all Covid vaccines. All other Covid admin codes have been deleted.
+1084,VAX,NA,"Vaccine is no longer approved for use in the United States. To report 3 mcg Pfizer tris-sucrose vaccine, see 91318"
+1085,RHC,Modifier CG - RHC,Modifier CG is not valid for 1500 claims. Please remove.
+1086,ICD:CM,Modifier CG - RHC,Sequela Dx (ends in S) should not be listed as the primary dx. Code the condition or nature of the sequela first. The sequela code is sequenced second per ICD-10-CM Official Guidelines for Coding and Reporting.
+1087,MCD:SC,NA,"Family Planning - The FP modifier and dx codes must be used on all applicable CPTs when visit was for family planning services (office visit, preventative visits, labs, procedures, meds, etc). Assign family planning dx only to appropriate codes."
+1088,MCD:SC,NA,"Family Planning - The FP modifier and dx codes must be used on all applicable CPTs when visit was for family planning services (office visit, preventative visits, labs, procedures, meds, etc). Assign family planning dx only to appropriate codes."
+1089,MCD:OR,CLIA Waived Test,CLIA waived tests are present - review and add modifier QW to CLIA waived tests.
+1090,UNVSL,NA,"BCBS Medicare Advantage has recently updated the definition, billing requirements and reimbursement of this code. Please reference link below for updated reporting guidelines. https://files.providernews.anthem.com/2639/MULTI-BCBS-CR-028696-23-CPN28577-Medication-Reconciliation-Post-Discharge-for-Providers_FINAL.pdf"
+1091,MCD:CO,NA,"Please report all prental and/or postpartum visits with appropriate 050XF code: 0500F (first prenatal visit), 0501F (use when initial maternity related tests and measurements are recorded and documented/ also can be first prenatal visit), 0502F ( Subsequent prenatal care visit), 0503F (Postpartum care visit) code and the appropriate DOS for each visit."
+1092,ICD:CM,Excludes 1 note for F17,F17.* cannot be billed with Z87.891/ Z72.0. Remove Z87.891/Z72.0

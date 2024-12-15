@@ -1,6 +1,6 @@
 source(here::here("data-raw", "pins_internal.R"))
 
-# -- Data wrangling code here -- #
+source(here::here("data-raw", "scripts", "load.R"))
 
 pin_update(
   dataset,
