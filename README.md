@@ -13,7 +13,8 @@ size](https://img.shields.io/github/languages/code-size/andrewallenbruce/crule.s
 commit](https://img.shields.io/github/last-commit/andrewallenbruce/crule.svg)](https://github.com/andrewallenbruce/crule/commits/master)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
-
+[![Codecov test
+coverage](https://codecov.io/gh/andrewallenbruce/crule/graph/badge.svg)](https://app.codecov.io/gh/andrewallenbruce/crule)
 <!-- badges: end -->
 
 ## :package: Installation
