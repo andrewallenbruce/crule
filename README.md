@@ -3,6 +3,10 @@
 
 # crule
 
+> Healthcare Claims Rules Engine
+
+<br>
+
 <!-- badges: start -->
 
 ![GitHub R package
@@ -15,19 +19,21 @@ commit](https://img.shields.io/github/last-commit/andrewallenbruce/crule.svg)](h
 MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 [![Codecov test
 coverage](https://codecov.io/gh/andrewallenbruce/crule/graph/badge.svg)](https://app.codecov.io/gh/andrewallenbruce/crule)
+[![CodeFactor](https://www.codefactor.io/repository/github/andrewallenbruce/crule/badge)](https://www.codefactor.io/repository/github/andrewallenbruce/crule)
 <!-- badges: end -->
 
 ## :package: Installation
 
-You can install the development version of **crule** from
-[GitHub](https://github.com/) with:
+You can install **`crule`** from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
 pak::pak("andrewallenbruce/crule")
 ```
 
-## Code of Conduct
+------------------------------------------------------------------------
+
+## :balance_scale: Code of Conduct
 
 Please note that the crule project is released with a [Contributor Code
 of

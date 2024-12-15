@@ -4,7 +4,7 @@
 \name{crule-package}
 \alias{crule}
 \alias{crule-package}
-\title{crule: What the Package Does (One Line, Title Case)}
+\title{crule: Healthcare Claims Rules Engine}
 \description{
 What the package does (one paragraph).
 }
