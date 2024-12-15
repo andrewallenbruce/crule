@@ -6,7 +6,7 @@ Authors@R:
 Maintainer: Andrew Allen Bruce <andrewallenbruce@gmail.com>
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
-URL: https://github.com/andrewallenbruce/crule
+URL: https://github.com/andrewallenbruce/crule, https://andrewallenbruce.github.io/crule/
 BugReports: https://github.com/andrewallenbruce/crule/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
