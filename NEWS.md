@@ -1,5 +1,11 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# crule 0.0.0.9004 (2024-12-16)
+
+* pos_name_to_code helper
+* raw sources
+
+
 # crule 0.0.0.9003 (2024-12-15)
 
 * experiment with condition capture
