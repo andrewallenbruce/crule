@@ -1,9 +1,9 @@
 # Packages ####
 
+library(here)
 library(tidyverse)
 library(fuimus)
 library(strex)
-library(here)
 
 # Load CSV ####
 

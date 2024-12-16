@@ -7,107 +7,12 @@ head_tail <- function(x, n = 5, by = NULL) {
 
 deparse_substitute <- \(x) deparse(substitute(x))
 
+deparse_substitute(mtcars)
+
 mask <- \(data, expr) rlang::eval_tidy(rlang::enquo(expr), data)
 
-# mtcars |> mask(mpg * 20)
-
-# REGEX FUNCTIONS ####
-known_patterns <- c("[0-9]", "[A-Za-z]", "[[:punct:]]")
-
-split_by_length <- \(x) split(x, nchar(x))
-
-escape_period <- \(x) gsub(".", "\\.", x, fixed = TRUE)
-
-find_common_substrings <- \(s, tolerance = 0.95, missing = "#") {
-  s <- splits
-
-  df <- t(
-    as.data.frame(
-      purrr::map(s, ~strsplit(.x, "")[[1]])
-      )
-    )
-
-  most_matching <- apply(df, 2, \(x) names(which.max(table(x))))
-
-  prop_matching <- sapply(seq_len(ncol(df)), \(x) sum(df[ , x] == most_matching[x]) / nrow(df))
-
-  exact_matches <- prop_matching >= tolerance
-
-  paste0(ifelse(exact_matches, most_matching, missing), collapse = "")
-
-}
-
-detect_pattern <- function(s, ...) {
-
-  charvec <- strsplit(find_common_substrings(s, ...), NULL)[[1]]
-
-  unknown_symbols <- which(charvec == missing_char)
-
-  best_pat <- unknown_symbols[NA]
-
-  for (symbol in unknown_symbols) {
-
-    s_char <- purrr::map_chr(strsplit(s, NULL), symbol)
-
-    pat <- known_patterns[NA]
-
-    pat <- sapply(known_patterns, function(kp) sum(!is.na(purrr::map_chr(s_char, ~stringr::str_match(.x, kp)))))
-
-    best_pat[symbol] <- known_patterns[which.max(pat)]
-  }
-
-  detected_pattern <- escape_period(paste0(ifelse(charvec == missing_char, best_pat, charvec), collapse = ""))
-
-  detected_pattern
-
-}
-
-categorise_regex <- function(strings, tolerance = 0.95) {
-
-  string_list <- split_by_length(strings)
-
-  guess <- purrr::map(string_list, detect_pattern, tolerance = tolerance)
-
-  matches <- purrr::map2(string_list, guess, ~stringr::str_match(.x, .y))
-
-  ## remove non-matches
-  matches <- purrr::map(matches, ~.x[!is.na(.x)])
-
-  nonmatches <- purrr::map2(string_list, matches, ~.x[! .x %in% .y])
-
-  result <- purrr::pmap(list(guess, matches, nonmatches),
-                        ~list(regex = ..1, matches = ..2, nonmatches = ..3))
-
-  message("   ** CATEGORISATION SUMMARY **")
-
-
-
-  message("   ** Detected ",
-          length(result),
-          " categories and matched\n    ",
-          length(unlist(purrr::map(result, "matches"))) ," / ", (length(unlist(purrr::map(result, "nonmatches"))) + length(unlist(purrr::map(result, "matches")))),
-          " ( ",
-          format(length(unlist(purrr::map(result, "matches"))) / (
-            length(unlist(purrr::map(result, "nonmatches"))) + length(unlist(purrr::map(result, "matches")))), digits = 3),
-          "% ) strings **\n")
-
-  purrr::walk2(
-    result,
-    names(result),
-    ~{
-    n_match <- length(.x$matches)
-    n_nonmatch <- length(.x$nonmatch)
-    n_results <- n_match + n_nonmatch
-    message("  nchar: ", .y,
-            "\nexample: ", .x$matches[[1]],
-            "\n  regex: ", .x$regex,
-            "\n  match: ", n_match, " / ", n_results,
-            " ( ", format(100 * n_match / n_results, digits = 3), "% )\n")
-  })
-
-  return(invisible(result))
-
-}
+mask(
+  dplyr::tibble(mtcars), mpg * 20)
 
 #####################
 
@@ -166,11 +71,11 @@ print_desc <- \(n) {
 
 print_list <- function(x, pre = "") {
 
-  if (length(x) == 0) {cat("<empty>\n")}
+  if (length(x) == 0) cat("<empty>\n")
 
   ns <- names(x)
 
-  if (length(ns) != length(x)) {stop("all elements must be named")}
+  if (length(ns) != length(x)) stop("all elements must be named")
 
   x <- lapply(x, as.character)
 
@@ -312,12 +217,18 @@ pos_name_to_code <- \(df, col) {
 
 str_vector <- function(x, qchar = c("single", "double")) {
 
-  qchar <- match.arg(qchar, choices = c("single", "double"))
-  switch(qchar,
-         "single" = return(toString(sprintf("'%s'", x))),
-         "double" = return(toString(sprintf("\"%s\"", x)))
+  qchar <- match.arg(qchar)
+
+  switch(
+    qchar,
+    single = toString(
+      sprintf("'%s'", x)),
+    double = toString(
+      sprintf("\"%s\"", x))
   )
 }
+
+str_vector(c("a", "b", "c"))
 
 bracks <- \(x) paste0(r"--{[}--", x, r"--{]}--")
 
@@ -373,18 +284,25 @@ print_list2 <- function(x, pre = "* ") {
 
 
 time_format <- function(secs) {
+
   if (secs > 60) {
+
     secs <- as.integer(secs)
+
     sprintf(
-      "%02d:%02d:%02d", secs %/% 3600L, (secs %/% 60L) %% 60L,
-      secs %% 60L
-    )
+      "%02d:%02d:%02d",
+      secs %/% 3600L,
+      (secs %/% 60L) %% 60L,
+      secs %% 60L)
+
   } else {
-    sprintf(if (secs >= 10) {
-      "%.1fs"
-    } else {
-      "%.3fs"
-    }, secs)
+
+    sprintf(
+      if (secs >= 10) "%.1fs"
+      else
+        "%.3fs",
+      secs
+      )
   }
 }
 
@@ -504,3 +422,101 @@ hcpcs_to_regex <- \(x) {
 
 
 # vctrs::vec_slice(hcpcs, stringfish::sf_grepl(hcpcs$hcpcs, "^[CEGS0-35-79][0-9]{3}[T0-9]$"))
+
+# REGEX FUNCTIONS ####
+known_patterns <- c("[0-9]", "[A-Za-z]", "[[:punct:]]")
+
+split_by_length <- \(x) split(x, nchar(x))
+
+escape_period <- \(x) gsub(".", "\\.", x, fixed = TRUE)
+
+find_common_substrings <- \(s, tolerance = 0.95, missing = "#") {
+  s <- splits
+
+  df <- t(
+    as.data.frame(
+      purrr::map(s, ~strsplit(.x, "")[[1]])
+    )
+  )
+
+  most_matching <- apply(df, 2, \(x) names(which.max(table(x))))
+
+  prop_matching <- sapply(seq_len(ncol(df)), \(x) sum(df[ , x] == most_matching[x]) / nrow(df))
+
+  exact_matches <- prop_matching >= tolerance
+
+  paste0(ifelse(exact_matches, most_matching, missing), collapse = "")
+
+}
+
+detect_pattern <- function(s, ...) {
+
+  charvec <- strsplit(find_common_substrings(s, ...), NULL)[[1]]
+
+  unknown_symbols <- which(charvec == missing_char)
+
+  best_pat <- unknown_symbols[NA]
+
+  for (symbol in unknown_symbols) {
+
+    s_char <- purrr::map_chr(strsplit(s, NULL), symbol)
+
+    pat <- known_patterns[NA]
+
+    pat <- sapply(known_patterns, function(kp) sum(!is.na(purrr::map_chr(s_char, ~stringr::str_match(.x, kp)))))
+
+    best_pat[symbol] <- known_patterns[which.max(pat)]
+  }
+
+  detected_pattern <- escape_period(paste0(ifelse(charvec == missing_char, best_pat, charvec), collapse = ""))
+
+  detected_pattern
+
+}
+
+categorise_regex <- function(strings, tolerance = 0.95) {
+
+  string_list <- split_by_length(strings)
+
+  guess <- purrr::map(string_list, detect_pattern, tolerance = tolerance)
+
+  matches <- purrr::map2(string_list, guess, ~stringr::str_match(.x, .y))
+
+  ## remove non-matches
+  matches <- purrr::map(matches, ~.x[!is.na(.x)])
+
+  nonmatches <- purrr::map2(string_list, matches, ~.x[! .x %in% .y])
+
+  result <- purrr::pmap(list(guess, matches, nonmatches),
+                        ~list(regex = ..1, matches = ..2, nonmatches = ..3))
+
+  message("   ** CATEGORISATION SUMMARY **")
+
+
+
+  message("   ** Detected ",
+          length(result),
+          " categories and matched\n    ",
+          length(unlist(purrr::map(result, "matches"))) ," / ", (length(unlist(purrr::map(result, "nonmatches"))) + length(unlist(purrr::map(result, "matches")))),
+          " ( ",
+          format(length(unlist(purrr::map(result, "matches"))) / (
+            length(unlist(purrr::map(result, "nonmatches"))) + length(unlist(purrr::map(result, "matches")))), digits = 3),
+          "% ) strings **\n")
+
+  purrr::walk2(
+    result,
+    names(result),
+    ~{
+      n_match <- length(.x$matches)
+      n_nonmatch <- length(.x$nonmatch)
+      n_results <- n_match + n_nonmatch
+      message("  nchar: ", .y,
+              "\nexample: ", .x$matches[[1]],
+              "\n  regex: ", .x$regex,
+              "\n  match: ", n_match, " / ", n_results,
+              " ( ", format(100 * n_match / n_results, digits = 3), "% )\n")
+    })
+
+  return(invisible(result))
+
+}

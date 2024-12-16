@@ -1,11 +1,12 @@
 library(tidyverse)
 library(fuimus)
 library(strex)
+library(here)
 
-source(here::here("data-raw", "scripts", "functions.R"))
+source(here("data-raw", "scripts", "functions.R"))
 
 cleaned_steps <- read_csv(
-  here("posts/rules/data/cleaned_steps.csv"),
+  here("data-raw/data/cleaned_steps.csv"),
   col_types = cols(
     number = col_integer(),
     order = col_integer(),
@@ -17,7 +18,7 @@ cleaned_steps <- read_csv(
 
 
 cleaned_definitions <- read_csv(
-  here("posts/rules/data/cleaned_definitions.csv"),
+  here("data-raw/data/cleaned_definitions.csv"),
   col_types = cols(
     number = col_integer(),
     definition = col_character())) |>
@@ -63,7 +64,7 @@ cleaned_definitions <- read_csv(
   )
 
 descriptors <- read_csv(
-  here("posts/rules/data/descriptors.csv"),
+  here("data-raw/data/descriptors.csv"),
   col_types = cols(
     number = col_integer(),
     identifier = col_character(),
