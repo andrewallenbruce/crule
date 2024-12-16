@@ -5,6 +5,6 @@
 * updated standalone-helpers
 
 
-# crule
+# crule 0.0.0.9000 (2024-12-14)
 
 * Initial commit.
