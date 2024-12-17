@@ -18,7 +18,6 @@ pos_name_to_code <- function(x) {
 
   data.table::fcase(
     sf_detect(x, "PHARMACY"), "01",
-    # sf_detect(x, "^TELEHEALTH PROVIDED OTHER THAN (IN)?//s? (PATIENT|PT) HOME"), "02",
     sf_detect(x, "TELEHEALTH PROVIDED OTHER THAN IN PATIENT HOME|TELEHEALTH PROVIDED OTHER THAN IN PT HOME|TELEHEALTH PROVIDED OTHER THAN PT HOME"), "02",
     sf_detect(x, "SCHOOL"), "03",
     sf_detect(x, "HOMELESS SHELTER"), "04",
