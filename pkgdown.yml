@@ -2,7 +2,7 @@ pandoc: 3.1.11
 pkgdown: 2.1.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2024-12-17T02:35Z
+last_built: 2024-12-27T01:19Z
 urls:
   reference: https://andrewallenbruce.github.io/crule/reference
   article: https://andrewallenbruce.github.io/crule/articles
